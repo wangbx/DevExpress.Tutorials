@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGuideControlDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GuideControlDescription>
+    <AllowParseChildren>false</AllowParseChildren>
+    <ControlTypeName>DevExpress.XtraGrid.Controls.FindControl</ControlTypeName>
+    <Description>&lt;b&gt;Find Panel&lt;/b&gt;
+Enables MS Outlook style search in the Grid Control. &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Grid/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;GridControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraGrid.GridControl:GridView</ControlTypeName>
+    <Description>&lt;b&gt;Grid View&lt;/b&gt;
+Emulates MS Outlook Mail view or MS Access Data Table view.  &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Grid/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;GridControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraGrid.GridControl:CardView</ControlTypeName>
+    <Description>&lt;b&gt;Card View&lt;/b&gt;
+Emulates MS Outlook Contacts view. &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Grid/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;GridControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraGrid.GridControl:CardView</ControlTypeName>
+    <Description>&lt;b&gt;Layout View&lt;/b&gt;
+Emulates MS Outlook Contacts view. &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Grid/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;GridControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraGrid.GridControl</ControlTypeName>
+    <Description>&lt;b&gt;Grid View&lt;/b&gt;
+Emulates MS Outlook Mail view or MS Access Data Table view.  &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Grid/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;GridControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <HighlightUseInsideBounds>true</HighlightUseInsideBounds>
+    <ControlTypeName>DevExpress.XtraBars.Ribbon.RibbonControl</ControlTypeName>
+    <Description>&lt;b&gt;Ribbon Control&lt;/b&gt;
+Emulates the Ribbon Control available in MS Office applications. &lt;href=https://www.devexpress.com/Products/NET/Controls/Winforms/Bars/features_ribbon.xml&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;RibbonControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <HighlightUseInsideBounds>true</HighlightUseInsideBounds>
+    <ControlTypeName>DevExpress.XtraBars.Ribbon.RibbonStatusBar</ControlTypeName>
+    <Description>&lt;b&gt;Ribbon Status Bar&lt;/b&gt;
+Emulates the Status Bar available in MS Office applications. &lt;href=https://www.devexpress.com/Products/NET/Controls/Winforms/Bars/features_ribbon.xml&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;RibbonStatusBar&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraNavBar.NavBarControl</ControlTypeName>
+    <Description>&lt;b&gt;NavBar Control&lt;/b&gt;
+Emulates side navigation/action bars available in MS Office applications or Windows Explorer. &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/NavBar/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;NavBarControl&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraSpreadsheet.SpreadsheetControl</ControlTypeName>
+    <Description>&lt;b&gt;Spreadsheet Control&lt;/b&gt;
+Implements MS Excel style spreadsheet.  &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Spreadsheet/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;SpreadSheetControll&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraScheduler.SchedulerControl</ControlTypeName>
+    <Description>&lt;b&gt;Spreadsheet Control&lt;/b&gt;
+Implements MS Excel style spreadsheet.  &lt;href=https://www.devexpress.com/Products/NET/Controls/WinForms/Spreadsheet/&gt;Learn more.&lt;/href&gt;
+
+Toolbox Item: &lt;b&gt;SpreadSheetControll&lt;/b&gt;
+Included in subscriptions: &lt;href=https://www.devexpress.com/Subscriptions/&gt;WinForms, DXperience, Universal&lt;/href&gt;
+</Description>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraScheduler.DateNavigator</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraTreeList.TreeList</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraEditors.RangeControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraCharts.ChartControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.ProductsDemo.Win.PivotTileControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraPivotGrid.PivotGridControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraMap.MapControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <AllowParseChildren>false</AllowParseChildren>
+    <ControlTypeName>DevExpress.XtraPdfViewer.PdfViewer</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.DocumentView.Controls.ViewControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraPrinting.Native.WinControls.BookmarkTreeView</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraGauges.Win.GaugeControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.Snap.SnapControl</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.Snap.Extensions.UI.FieldListDockPanel</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.Snap.Extensions.UI.ReportExplorerDockPanel</ControlTypeName>
+  </GuideControlDescription>
+  <GuideControlDescription>
+    <ControlTypeName>DevExpress.XtraRichEdit.RichEditControl</ControlTypeName>
+  </GuideControlDescription>
+</ArrayOfGuideControlDescription>

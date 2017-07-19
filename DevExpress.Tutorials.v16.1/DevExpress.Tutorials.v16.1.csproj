@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92B72214-9862-487D-8ADF-F454C5AABCB4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>DevExpress.Tutorials.v16.1</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key\StrongKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="DevExpress.Utils.v16.1" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="DevExpress.XtraEditors.v16.1" />
+    <Reference Include="DevExpress.XtraBars.v16.1" />
+    <Reference Include="DevExpress.Data.v16.1" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="DevExpress.XtraNavBar.v16.1" />
+    <Reference Include="DevExpress.CodeParser.v16.1" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="DevExpress.XtraTreeList.v16.1" />
+    <Reference Include="DevExpress.XtraLayout.v16.1" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.1" />
+    <Reference Include="DevExpress.Office.v16.1.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="DevExpress.DemoData.v16.1" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v16.1" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Global.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeEvaluationEventHandler.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\OnAfterCompileEventHandler.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\ExampleLanguage.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeEvaluationEventArgs.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExample.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleGroup.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\NestedCodeContainer.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\ExampleCodeEditor.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\ExampleCodeEvaluator.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\ExampleEvaluatorByTimer.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\LeakSafeCompileEventRouter.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\OnAfterCompileEventArgs.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleClass.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleNestedClass.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleCase.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleGroupName.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleSetUp.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleVersionID.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleHighlightTokens.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleUnderlineTokens.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleTearDown.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\StringContainer.cs" />
+    <Compile Include="DevExpress\Tutorials\ModuleBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\TutorialControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeTutorialControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\GroupNode.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\RichEditUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CustomRichEditCommandFactoryService.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SourceCodeDocumentFormat.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SourcesCodeDocumentExporter.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SourcesCodeDocumentImporter.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SyntaxHighlightInfo.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SyntaxHighlightService.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\SyntaxHighlightInitializeHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CodeDemo\CodeExampleURI.cs" />
+    <Compile Include="DevExpress\Tutorials\ColoredTextControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\ColoredTextControlViewInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\ScrollBarInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\TextPortionPopulator.cs" />
+    <Compile Include="DevExpress\Tutorials\TextPortionInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\TextPortionInfoCollection.cs" />
+    <Compile Include="DevExpress\Tutorials\TextFormatInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerBase.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerLines.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerLinesSpaces.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerCSharp.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerVB.cs" />
+    <Compile Include="DevExpress\Tutorials\FactoryBase.cs" />
+    <Compile Include="DevExpress\Tutorials\LexerFactory.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorFactory.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorBase.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorBoldIfSharp.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorCode.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorCSharp.cs" />
+    <Compile Include="DevExpress\Tutorials\LexemProcessorVB.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\ColoredHint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCustomDrawEventArgs.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCalcSizeEventArgs.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCanShowEventArgs.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCanShowEventHandler.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipEx.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCalcSizeEventHandler.cs" />
+    <Compile Include="DevExpress\Tutorials\Win\ToolTipCustomDrawEventHandler.cs" />
+    <Compile Include="DevExpress\Tutorials\Controls\AlignmentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Controls\XtraFontDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Controls\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Controls\RichTextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Controls\OverviewLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\Controls\OverviewButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Description\Controls\GuideControl.cs" />
+    <Compile Include="DevExpress\Description\Controls\GuideControlEx.cs" />
+    <Compile Include="DevExpress\Description\Controls\GuideGetCurrentModuleDelegate.cs" />
+    <Compile Include="DevExpress\Description\Controls\IGuideDescriptionProvider.cs" />
+    <Compile Include="DevExpress\Description\Controls\GuideGenerator.cs" />
+    <Compile Include="DevExpress\Description\Controls\GuideControlDescription.cs" />
+    <Compile Include="DevExpress\Description\Controls\IGuideForm.cs" />
+    <Compile Include="DevExpress\Description\Controls\GuideForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Description\Controls\GuideFormAlt.cs" />
+    <Compile Include="DevExpress\Description\Controls\Windows\DXLayeredWindowAlt.cs" />
+    <Compile Include="DevExpress\Description\Controls\Windows\DXGuideLayeredWindow.cs" />
+    <Compile Include="DevExpress\Description\Controls\Windows\DXGuideLayeredWindowEx.cs" />
+    <Compile Include="DevExpress\NoteHint\DragHelper.cs" />
+    <Compile Include="DevExpress\Tutorials\Description\Hint\GuideDescription.cs" />
+    <Compile Include="DevExpress\NoteHint\Line.cs" />
+    <Compile Include="DevExpress\NoteHint\NoteHintPosition.cs" />
+    <Compile Include="DevExpress\NoteHint\NoteHintStyle.cs" />
+    <Compile Include="DevExpress\NoteHint\ContentChangedHandler.cs" />
+    <Compile Include="DevExpress\NoteHint\NoteHintContainer.cs" />
+    <Compile Include="DevExpress\NoteHint\NoteWindow.cs" />
+    <Compile Include="DevExpress\Tutorials\FrmMainBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\ITutorialForm.cs" />
+    <Compile Include="DevExpress\Tutorials\IWhatsThisProvider.cs" />
+    <Compile Include="DevExpress\Tutorials\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\SourceFileType.cs" />
+    <Compile Include="DevExpress\Tutorials\FormTutorialInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\FrmMainTreeViewReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\TreeViewAdapter.cs" />
+    <Compile Include="DevExpress\Tutorials\FrmWhatsThisBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\FrmWhatsThis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\FrmWhatsThisTextOnly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\ImageSize.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\MainFormRegisterDemoHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\MainFormHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\NavigationMenuHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\AccordionNavigationMenuHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\NavBarFilter.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\RibbonMenuManager.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\PrintOptions.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\RibbonMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\DescriptionLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\SearchControlLogger.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\TouchNavBarControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\ProductIdAttribute.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ModuleInfo.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ModuleInfoCollection.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ModulesInfo.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ExportFormats.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ButtonBarItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\OptionBarItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CheckBarItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\CheckBarItemWithStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\LookAndFeelMenu.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\BarInfo.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\DemoHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\EnumHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\ResourcesKeeper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\EnumTitlesKeeper!1.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\RatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\ucAboutPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\ucOverviewPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\VersionControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DevExpress\DXperience\Demos\XtraPropertyGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\TutorialInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\ModuleInfo.cs" />
+    <Compile Include="DevExpress\Tutorials\ModuleInfoCollection.cs" />
+    <Compile Include="DevExpress\Tutorials\ModuleWhatsThis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\ControlHotTrackPainterBase.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlHotTrackPainterHint.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlHotTrackPainterFrame.cs" />
+    <Compile Include="DevExpress\Tutorials\ImageShaderBase.cs" />
+    <Compile Include="DevExpress\Tutorials\ImageShaderDisable.cs" />
+    <Compile Include="DevExpress\Tutorials\ImageShaderPatternBase.cs" />
+    <Compile Include="DevExpress\Tutorials\ImageShaderPatternDots.cs" />
+    <Compile Include="DevExpress\Tutorials\ImageShaderHatch.cs" />
+    <Compile Include="DevExpress\Tutorials\Properties\Resources.cs" />
+    <Compile Include="DevExpress\Tutorials\SimpleXmlReaderBase.cs" />
+    <Compile Include="DevExpress\Tutorials\FilePathUtils.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlIterator.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlImageCapturer.cs" />
+    <Compile Include="DevExpress\Tutorials\ColorUtils.cs" />
+    <Compile Include="DevExpress\Tutorials\CodeLineShifter.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlUtils.cs" />
+    <Compile Include="DevExpress\Tutorials\FindControlByNameIterator.cs" />
+    <Compile Include="DevExpress\Tutorials\TutorialHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\WebHelper.cs" />
+    <Compile Include="DevExpress\DXperience\Demos\WebControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\Tutorials\WhatsThisInfoReader.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlCodeEntry.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlCodes.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisSourceFileReader.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisHintEntry.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisHintCollection.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisControlEntry.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisControlsCollection.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisController.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisParams.cs" />
+    <Compile Include="DevExpress\Tutorials\WhatsThisControlImageProcessor.cs" />
+    <Compile Include="DevExpress\Tutorials\VisibleControlFinder.cs" />
+    <Compile Include="DevExpress\Tutorials\ControlFinder.cs" />
+    <Compile Include="DevExpress\Demos\XmlSerialization\SerializeFormat.cs" />
+    <Compile Include="DevExpress\Demos\XmlSerialization\XMLSerializer!1.cs" />
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\RatingForm.resx">
+      <DependentUpon>RatingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\RibbonMainForm.resx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.v16.1.g.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.CodeDemo.CodeTutorialControlBase.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ColoredTextControl.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Description.Controls.GuideForm.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMain.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMainBase.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMainTreeViewReg.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmWhatsThis.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmWhatsThisTextOnly.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.frmMain.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ucOverviewPage.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ModuleBase.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ModuleWhatsThis.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.RatingForm.resources">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ucAboutPage.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.XtraPropertyGrid.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.frmProgress.resources" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.MainDemo.menu.bmp" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.MainDemo.Properties.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.awards.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToExcel_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToExcel_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToHTML_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToHTML_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToIMG_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToIMG_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToMHT_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToMHT_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToPDF_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToPDF_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToRTF_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToRTF_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToTXT_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToTXT_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToXML_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToXML_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Export_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Export_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Filter_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Filter_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.FullWindowView_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.FullWindowView_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Info_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Info_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LayoutOptions_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LayoutOptions_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Navigation_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Navigation_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Next_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Next_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Preview_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Preview_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Previous_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Previous_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.View_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.View_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ActiveDemo_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ActiveDemo_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToEPUB_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToEPUB_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOC_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOC_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOCX_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOCX_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToODT_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToODT_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LoadPageSetup_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LoadPageSetup_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PageSetup_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PageSetup_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.SavePageSetup_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.SavePageSetup_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PrintColorSchemas_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PrintColorSchemas_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Print_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Print_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.C#_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.C#_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.VB_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.VB_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ColorMixer_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ColorMixer_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GenerateReport_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GenerateReport_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonHover.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonNormal.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonPressed.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Buy-Normal.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Getting-Started-Normal.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Support-Normal.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.About_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.About_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.BuyNow_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.BuyNow_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetStarted_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetStarted_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetSupport_16x16.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetSupport_32x32.png" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Description.Guide.xml" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.DxSample.csproj" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Form1.cs" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Form1.Designer.cs" />
+    <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Awards" />
+    <None Include="Key\StrongKey.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Awards.png" />
+  </ItemGroup>
+</Project>

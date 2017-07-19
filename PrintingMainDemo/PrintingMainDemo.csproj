@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57CA49CF-64B4-496C-B375-0F1E97C63B74}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>AppIcon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>PrintingMainDemo</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>XtraPrintingDemos</RootNamespace>
+    <StartupObject>XtraPrintingDemos.frmMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v16.1">
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1">
+      <Name>DevExpress.Data.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1">
+      <Name>DevExpress.Utils.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1">
+      <Name>DevExpress.XtraBars.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1">
+      <Name>DevExpress.XtraEditors.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v16.1">
+      <Name>DevExpress.XtraNavBar.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.1">
+      <Name>DevExpress.XtraPrinting.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v16.1.Core">
+      <Name>DevExpress.Office.v16.1.Core</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v16.1.Core">
+      <Name>DevExpress.RichEdit.v16.1.Core</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v16.1">
+      <Name>DevExpress.XtraRichEdit.v16.1</Name>
+      <HintPath>
+      </HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseForms\DataHelper.cs" />
+    <Compile Include="BaseForms\DemosInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BaseForms\MainFeaturesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseForms\ModuleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseForms\PreviewDockPanelControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseForms\RibbonPreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Calendar\Calendar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calendar\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DataGrid\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout\BioLifePrinting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Layout\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListView\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListView\PrintableListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\PropertyEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MasterDetail\MasterDetailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MasterDetail\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportService\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RichText\PreviewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings1.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseForms\MainFeaturesControl.resx">
+      <DependentUpon>MainFeaturesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\ModuleControl.resx">
+      <DependentUpon>ModuleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\PreviewDockPanelControl.resx">
+      <DependentUpon>PreviewDockPanelControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForms\PrintingAbout.rtf" />
+    <None Include="App.config" />
+    <EmbeddedResource Include="BaseForms\RibbonPreviewControl.resx">
+      <DependentUpon>RibbonPreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGrid\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListView\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDetail\MasterDetailControl.resx">
+      <DependentUpon>MasterDetailControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterDetail\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportService\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichText\PreviewControl.resx">
+      <DependentUpon>PreviewControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevExpress.Tutorials.v16.1\DevExpress.Tutorials.v16.1.csproj">
+      <Project>{92b72214-9862-487d-8adf-f454c5aabcb4}</Project>
+      <Name>DevExpress.Tutorials.v16.1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+  </PropertyGroup>
+</Project>
