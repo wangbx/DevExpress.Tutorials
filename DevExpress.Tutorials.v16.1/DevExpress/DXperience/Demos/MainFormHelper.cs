@@ -49,10 +49,9 @@
         public static Image GetImage(string name, ImageSize size)
         {
             if (string.IsNullOrEmpty(name))
-            {
                 return null;
-            }
-            return ResourceImageHelper.CreateImageFromResources(string.Format("DevExpress.Tutorials.Images.{0}_{1}.png", name, GetImageSizeString(size)), typeof(RibbonMainForm).Assembly);
+            string fileName = string.Format("DevExpress.Tutorials.Images.{0}_{1}.png", name, GetImageSizeString(size));
+            return ResourceImageHelper.CreateImageFromResources(fileName, typeof(RibbonMainForm).Assembly);
         }
 
         private static string GetImageSizeString(ImageSize size)

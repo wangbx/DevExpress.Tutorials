@@ -33,10 +33,19 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>Key\StrongKey.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -342,87 +351,99 @@
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.ucAboutPage.resources" />
     <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.XtraPropertyGrid.resources" />
     <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.frmProgress.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.MainDemo.menu.bmp" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.MainDemo.Properties.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.awards.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToExcel_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToExcel_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToHTML_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToHTML_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToIMG_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToIMG_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToMHT_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToMHT_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToPDF_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToPDF_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToRTF_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToRTF_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToTXT_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToTXT_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToXML_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToXML_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Export_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Export_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Filter_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Filter_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.FullWindowView_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.FullWindowView_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Info_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Info_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LayoutOptions_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LayoutOptions_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Navigation_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Navigation_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Next_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Next_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Preview_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Preview_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Previous_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Previous_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.View_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.View_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ActiveDemo_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ActiveDemo_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToEPUB_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToEPUB_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOC_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOC_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOCX_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToDOCX_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToODT_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ExportToODT_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LoadPageSetup_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.LoadPageSetup_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PageSetup_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PageSetup_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.SavePageSetup_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.SavePageSetup_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PrintColorSchemas_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.PrintColorSchemas_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Print_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Print_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.C#_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.C#_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.VB_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.VB_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ColorMixer_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.ColorMixer_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GenerateReport_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GenerateReport_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonHover.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonNormal.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.RunButtonPressed.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Buy-Normal.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Getting-Started-Normal.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.Overview-Support-Normal.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.About_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.About_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.BuyNow_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.BuyNow_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetStarted_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetStarted_32x32.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetSupport_16x16.png" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.Images.GetSupport_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.MainDemo.menu.bmp" />
+    <EmbeddedResource Include="DevExpress.Tutorials.MainDemo.Properties.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.awards.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToExcel_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToExcel_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToHTML_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToHTML_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToIMG_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToIMG_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToMHT_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToMHT_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToPDF_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToPDF_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToRTF_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToRTF_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToTXT_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToTXT_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToXML_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToXML_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Export_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Export_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Filter_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Filter_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.FullWindowView_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.FullWindowView_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Info_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Info_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.LayoutOptions_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.LayoutOptions_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Navigation_16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Navigation_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Next_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Next_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Preview_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Preview_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Previous_16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Previous_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.View_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.View_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ActiveDemo_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ActiveDemo_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToEPUB_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToEPUB_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToDOC_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToDOC_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToDOCX_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToDOCX_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToODT_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ExportToODT_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.LoadPageSetup_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.LoadPageSetup_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.PageSetup_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.PageSetup_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.SavePageSetup_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.SavePageSetup_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.PrintColorSchemas_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.PrintColorSchemas_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Print_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Print_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.C#_16x16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.C#_32x32.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.VB_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.VB_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ColorMixer_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.ColorMixer_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GenerateReport_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GenerateReport_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.RunButtonHover.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.RunButtonNormal.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.RunButtonPressed.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Overview-Buy-Normal.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Overview-Getting-Started-Normal.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.Overview-Support-Normal.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.About_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.About_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.BuyNow_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.BuyNow_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GetStarted_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GetStarted_32x32.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GetSupport_16x16.png" />
+    <EmbeddedResource Include="DevExpress.Tutorials.Images.GetSupport_32x32.png" />
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.Description.Guide.xml" />
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.DxSample.csproj" />
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Form1.cs" />
@@ -431,7 +452,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Awards" />
-    <None Include="Key\StrongKey.snk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Awards.png" />

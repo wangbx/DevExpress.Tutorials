@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bbiExporttoODT.Caption" xml:space="preserve">
+    <value>Export to ODT</value>
+  </metadata>
+  <metadata name="bbiPrintPreview.Caption" xml:space="preserve">
+    <value>Print Preview</value>
+  </metadata>
+  <metadata name="rpgActiveDemo.Text" xml:space="preserve">
+    <value>Active Demo</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmExport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmExport.Name" xml:space="preserve">
+    <value>pmExport</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGetFreeSupport.Name" xml:space="preserve">
+    <value>bbiGetFreeSupport</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGetFreeSupport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiVBSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFZCO1Zpc3VhbDtDb2RlO0xhbmd1
+        YWdlO1Byb2dyYW07QmFzaWPYyHX7AAAAu0lEQVQ4T6WR0Q2DMAxEWaErMAu/rNEV+t8tugITIGWFrtAV
+        WCH4rLvIRP5o2o+Hchf7bGCqtf5Fao6QmiOk5gj+WJ/73ajGSxd2XuhtxsGzKMbcAtiAok/QDwPFCMfd
+        Qf8yLAZgEi4W6rehphjQgqFjgJJRMPO8hQBoUdTXAkIh3k9hPoW+NmjfBroPQLNPMLyBfgvodR+gySjw
+        CfSzDQp0H3BDIQt8ffryBDa8/sZfSc0RUnOE1PyeOp2j9sR6Icn/0AAAAABJRU5ErkJggg==
+</value>
+  </metadata>
+  <metadata name="ribbonControl1.ApplicationButtonText" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </metadata>
+  <metadata name="pnlCaption.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="rpgAppearance.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiCode.Name" xml:space="preserve">
+    <value>bbiCode</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiActiveDemo.Caption" xml:space="preserve">
+    <value>Run Active Demo</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiAbout.Name" xml:space="preserve">
+    <value>bbiAbout</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="&gt;&gt;rgbiSkins.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.RibbonGalleryBarItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rgbiSkins.Name" xml:space="preserve">
+    <value>rgbiSkins</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLSX.Name" xml:space="preserve">
+    <value>bbiExporttoXLSX</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLSX.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="horzSplitter.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 8</value>
+  </metadata>
+  <metadata name="horzSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Bottom</value>
+  </metadata>
+  <metadata name="panelControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 169</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGettingStarted.Name" xml:space="preserve">
+    <value>bbiGettingStarted</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGettingStarted.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="gcDescription.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+    <value>Vertical</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoPDF.Name" xml:space="preserve">
+    <value>bbiExporttoPDF</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoPDF.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiExporttoXLSX.Caption" xml:space="preserve">
+    <value>Export to XLSX</value>
+  </metadata>
+  <metadata name="$this.Text" xml:space="preserve">
+    <value>Features Demo (C# code)</value>
+  </metadata>
+  <metadata name="&gt;&gt;bsiModules.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bsiModules.Name" xml:space="preserve">
+    <value>bsiModules</value>
+  </metadata>
+  <metadata name="gcDescription.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>3</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiActiveDemo.Name" xml:space="preserve">
+    <value>bbiActiveDemo</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiActiveDemo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiExporttoImage.Caption" xml:space="preserve">
+    <value>Export to Image</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </metadata>
+  <metadata name="gcContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </metadata>
+  <metadata name="gcContainer.Text" xml:space="preserve">
+    <value>Tutorial:</value>
+  </metadata>
+  <metadata name="gcContainer.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 391</value>
+  </metadata>
+  <metadata name="rgbiSkins.Caption" xml:space="preserve">
+    <value>Skins</value>
+  </metadata>
+  <metadata name="gcNavigations.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Name" xml:space="preserve">
+    <value>gcNavigations</value>
+  </metadata>
+  <metadata name="gcNavigations.Text" xml:space="preserve">
+    <value>Navigations:</value>
+  </metadata>
+  <metadata name="gcNavigations.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 498</value>
+  </metadata>
+  <metadata name="gcNavigations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Left</value>
+  </metadata>
+  <metadata name="bbiExporttoMHT.Caption" xml:space="preserve">
+    <value>Export to MHT</value>
+  </metadata>
+  <metadata name="$this.ClientSize" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1153, 651</value>
+  </metadata>
+  <metadata name="demoCategory.Text" xml:space="preserve">
+    <value>Demo</value>
+  </metadata>
+  <metadata name="bciFilter.Caption" xml:space="preserve">
+    <value>Filter Box</value>
+  </metadata>
+  <metadata name="gcContainer.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgNavigation.Name" xml:space="preserve">
+    <value>rpgNavigation</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgNavigation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmPrintOptions.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmPrintOptions.Name" xml:space="preserve">
+    <value>pmPrintOptions</value>
+  </metadata>
+  <metadata name="bbiCSSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAEMjO0NTaGFycDtDb2RlO0xhbmd1
+        YWdlO1Byb2dyYW3Y4UoGAAAAzUlEQVQ4T6WRwQ2DQAwEaSEtpIW0kG+eaYEW+OdFC7RABZHSQlqgBVq4
+        7J68J8syUk48Rphd29hmKKWcIhV7SMUeUjHj8Xp/SIx9wmhGcUzO38Hs4urJXIEvFNSXoHlGFk9OWN0X
+        b/QsVs4VcNIa1wkQbCa04gg8TrHFmFDgPmwwSozA+wIdkB9c5FFgcdoA2t35kTqFOlJIV4CuJny2WD4T
+        ZhNJ/U1W+AQ8Xjuave/KUYML4I5q4jk8rGgBkv0khKsdHlakYg+p+D9l+AHYabV451D3aQAAAABJRU5E
+        rkJggg==
+</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrintPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrintPreview.Name" xml:space="preserve">
+    <value>bbiPrintPreview</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLS.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLS.Name" xml:space="preserve">
+    <value>bbiExporttoXLS</value>
+  </metadata>
+  <metadata name="ribbonStatusBar.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </metadata>
+  <metadata name="rpgNavigation.Text" xml:space="preserve">
+    <value>Navigation</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciFilter.Name" xml:space="preserve">
+    <value>bciFilter</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciFilter.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Type" xml:space="preserve">
+    <value>DevExpress.Utils.Frames.ApplicationCaption8_1, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Name" xml:space="preserve">
+    <value>pnlCaption</value>
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Name" xml:space="preserve">
+    <value>lineLabel</value>
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bsiExporttoImageEx.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bsiExporttoImageEx.Name" xml:space="preserve">
+    <value>bsiExporttoImageEx</value>
+  </metadata>
+  <metadata name="bbiGenerateReport.Caption" xml:space="preserve">
+    <value>Generate Report</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiDown.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiDown.Name" xml:space="preserve">
+    <value>bbiDown</value>
+  </metadata>
+  <metadata name="rpgView.Text" xml:space="preserve">
+    <value>View</value>
+  </metadata>
+  <metadata name="bbiExporttoEPUB.Caption" xml:space="preserve">
+    <value>Export to EPUB</value>
+  </metadata>
+  <metadata name="demoCategory.Color" type="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>Orange</value>
+  </metadata>
+  <metadata name="bbiGettingStarted.Caption" xml:space="preserve">
+    <value>Getting Started</value>
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgAppearance.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgAppearance.Name" xml:space="preserve">
+    <value>rpgAppearance</value>
+  </metadata>
+  <metadata name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1, 1</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+    <value>ribbonControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiVBSolution.Caption" xml:space="preserve">
+    <value>VB Solution</value>
+  </metadata>
+  <metadata name="ribbonStatusBar.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 620</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiBuyNow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiBuyNow.Name" xml:space="preserve">
+    <value>bbiBuyNow</value>
+  </metadata>
+  <metadata name="bbiExporttoXML.Caption" xml:space="preserve">
+    <value>Export to XML</value>
+  </metadata>
+  <metadata name="bbiCSSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAEMjO0NTaGFycDtDb2RlO0xhbmd1
+        YWdlO1Byb2dyYW3Y4UoGAAABzklEQVRYR8WVW23DQBBFAyEQAiEQQqBSIARCGUQqgUIohPz2LxACoRAK
+        wb3H8rVm7dnUeXT7cSTP9Tz2MR6vuq77V1KxJanYklRsSSq2JBUf5eXt8yg6cQjaedA20Xd8eCYqchqK
+        bYP2DdEPCuNZqNAXCwj2BlucrZnCuIaC12IXWFf8ZsX0vB+0Y/SFwpiiAIpyn/2OEtBJTlH84EPw7hI0
+        3z9X02uuMStq5LQVtcIREh4m2m9cXGdWGOTAEccAGuhdsFtfAYW9S07AOhoxLMqac9gemzMrTjKcXZxj
+        S+8bpu9kL25AmAly9B1Wg2rIn54p4vRcbUAoDDk5gSmGRg350WTg4+cUrLmPojbmnSbyfcGi3cuPZnXM
+        ImL8NBkNZcf0yK6hGHZH7LjDwZ5NQFMYcnx0AcW41bNP5xT9IoUhx7sXIP9sAno+VHMVhhzdsUWiJYTY
+        sZiemR1ou+gbKQw5ehdm0VcAQyxNHO+fK0CrzpGZIGc3Etx0CvcwE1Q0for9IkR6Euhin71bSioqafZz
+        YSE0KXC3Hjo3fy2RVAQlZhHxn1DjbxYASs5ofhWxL4Cxyk+KRVYbbAmp2JJUbEkqtiQVW5KKLUnFdnSr
+        H0OeNKGkCnPnAAAAAElFTkSuQmCC
+</value>
+  </metadata>
+  <metadata name="ribbonStatusBar.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1153, 31</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Parent" xml:space="preserve">
+    <value>gcNavigations</value>
+  </metadata>
+  <metadata name="bbiExporttoHTML.Caption" xml:space="preserve">
+    <value>Export to HTML</value>
+  </metadata>
+  <metadata name="panelControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgCode.Name" xml:space="preserve">
+    <value>rpgCode</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgCode.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiCode.Caption" xml:space="preserve">
+    <value>Show Code</value>
+  </metadata>
+  <metadata name="bbiExport.Caption" xml:space="preserve">
+    <value>Export</value>
+  </metadata>
+  <metadata name="bbiExporttoDOCX.Caption" xml:space="preserve">
+    <value>Export to DOCX</value>
+  </metadata>
+  <metadata name="panelControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>8, 8, 8, 8</value>
+  </metadata>
+  <metadata name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1153, 122</value>
+  </metadata>
+  <metadata name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
+    <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
+    <value>defaultLookAndFeel1</value>
+  </metadata>
+  <metadata name="bbiOpenSolution.Caption" xml:space="preserve">
+    <value>Open Solution</value>
+  </metadata>
+  <metadata name="horzSplitter.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>7</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciFullWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciFullWindow.Name" xml:space="preserve">
+    <value>bciFullWindow</value>
+  </metadata>
+  <metadata name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </metadata>
+  <metadata name="panelControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>953, 451</value>
+  </metadata>
+  <metadata name="gcDescription.AppearanceDisabled.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </metadata>
+  <metadata name="gcDescription.AppearanceHovered.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </metadata>
+  <metadata name="gcContainer.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgAbout.Name" xml:space="preserve">
+    <value>rpgAbout</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciShowRibbonPreview.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciShowRibbonPreview.Name" xml:space="preserve">
+    <value>bciShowRibbonPreview</value>
+  </metadata>
+  <metadata name="bbiExporttoPDF.Caption" xml:space="preserve">
+    <value>Export to PDF</value>
+  </metadata>
+  <metadata name="gcDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Bottom</value>
+  </metadata>
+  <metadata name="gcDescription.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 36</value>
+  </metadata>
+  <metadata name="accordionControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGenerateReport.Name" xml:space="preserve">
+    <value>bbiGenerateReport</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiGenerateReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgView.Name" xml:space="preserve">
+    <value>rpgView</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="gcDescription.Appearance.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
+        bGUASW5mbzttEi2GAAAKW0lEQVRYR5VWd1DVVxYmbdOTzc5sZst/O7M7s7Ozs9mdzCRZE5WiYCFERSmS
+        KIL0IrCASpUighQpAtKLICC9FwFBenvwKArSm9IFBQXRb8+5D4iazGT3zHzv3nfv/Z3vO+eee38/OQAv
+        4f+w134Gv2g/4eOfxOx2uXhCgoCE+hLRJmS2CcRnSvjZTZLXN/DGz2BzTqyNvt4sF53WJBdFiEyllhCZ
+        0igXwbjW8KOAOCLZVPQqNpwJwpD4ys+uXGs4F5nWVBuV2twandayHnW9eT0ytbGNnNaGJdW4+YYX/IvW
+        vsnrN5597ef8hiXVyfzzT8z1lpcmxcTGw4Q3Qq/WqEekNvWm5HeguWMME1NLmJl/hOfPnwtwf+L+Ihrb
+        R5GUK0FYUm3fpahyLXr2LX6e/bzqPyShZpNHTqTmxUkyEfWFkNw/hSfVN+Te6MEkkW4ak64/e46n68+w
+        9vSZaJ+uP8czGmObnFpEdmkngmKrG097xP6ZfHFGXqepLY7A2CrmkVl4smw/GGQiat/wYqXw5Pr5zjv3
+        aJhJgdW1dfSNL6Go7R5Sasbgk9MHr+xeJNwcQWb9ODoG5rH0aA1rtI5FtvdMIjiuat7VN12ZfHI2tkT4
+        R1Yyl8xCr27sxwa5T2ihUlRq4+rE/QfMLSKUDi0gqGgAAYVDCCwZQVDpKGEEAcXDuJg3BK+su3BNvQP3
+        lG7c6prCw0erQvDY5AIux9esOnglq5DvLRE+4eXMJ7OguFvciLQ7X0z5y+WEmtn707KUrzx5iqSqEfjk
+        9SOQCENujCGkfAzBhMCyMQSQGL/CYXiTCM+sfiHCLq4Tgdl3MD2/jJXHa6I+/CLK54xtLv2NOFjEa16X
+        S5hTZv7RN7nhSn+LFtZJb08K8kcrawgu6Id3bj/8S4ZxqWxUwL9oBCXSKUzMr2D+4SqqumfgQeTuWQNw
+        TevD2aQe/CdaCqe4DkzOPCQ/q5B0jcH9Un49cbxH2DwhW8Z/3nQLyNFOyGgS5Jy+6LIBeGTehU/+EHwp
+        1b5Fw/DKG0Dz3TmsrK5jefUpnlARPqb+mcQuuFzvg9O1Ozh7tRs2MZ0wC2vD+WQp5hZWsEyZiEyqhbVz
+        3DHiepvAAW8Z/3nbK6S0b3h8TlRzbfc0HJO7KbI+nM8dxHki9iIhDsldmJxdJlLZCWBr75vGqah2OBD5
+        mas9sI3tgg1lwIIE6Ac0IvvWEGYXlnF3aBoOXln9xPUBgU+GyIKI3tYtUTnyWq1wuLS8CqerneSwB+fS
+        +3Auox9ulGKGHUUaX3wHD2l7uvpnkFxyG7o+NyniDtgnUOrjumDN5Fc6YBLaKgQY+tVh7N4SFhYfIzim
+        HPqWAarE+asXBbx19kK6f3XjXRF9K0cU3Y7TyT1wpKJyTOuFE+2tE7VnaMz8Sit0LlRCw7UMWm7lsApv
+        gmWEBFYxXZQJKcwjOmAa2gbD4Bbo+TfgqOctZFcP4t70Q5RVdcP8TEwQcb5LENvAP+84emfVDI7MiKqN
+        KOiFZZQEtvFdsE/shj0VlT0Rn6bWJr4TJpcbEZQuRX3XJBZXnoqt0CUi88h2mIZLYHy5FYZBMvLjvvXQ
+        9qiGR1wbxu8too2K0dIhgYvxQwIXoxDw7lmvzNnFpceYmVuGU6yEopBQFqSwpiNlzWnllvbWMKQJkr4Z
+        Il6TYXlNbNvR81Uw5qhDWnEysAknKPXHL9bj+wu1lKVqHPeswuD4PPoGp2HhkDhHnB8TuA6Eivft3a+v
+        rdOFM0ZnVsOlAkaXW2B2RQIzSidHZhHZATNq9QMbkVZxFwtE/IDALZumWyVOBjVDL6AJun4NOOZTT9tU
+        C01Kv7pLJfZYFaJ/eBb9I7MwOxO/RpyfEPhOEAI+sHFNEQKG6BR8Z1eCAw4VMCCHRlRIRhSZAFW1QUgL
+        DrncwCRlap5uuwW6etnUXcplxBcboONdRxmpgZYHk9/EXqti7D1VgN7BGdwemIKxXQwL+M1LAiwdk2Yf
+        LK5gYHQOOuRsj3Ux1E6X4weKRI9Sqr8BPRJ15FwleobnSMATcRGxHXAokxF7EbFnNTTcqnDIkfwQ+W7z
+        fGg4lOB2/zRapKPQt4rgLWABYgu4Bt43to2t6x24h8HReZzyuwVly0LstS7BXpsSHHSsJOe1OOZLERIO
+        Uga6h2Yxt/QEsySAX1Sq9sXQcq+GpjsRO1dgv10p+SjAbosCKJnmwtz7Jrr6psQpOGYS3Eicv35RwLu6
+        5iFBReVSjE4sIC6nC0pm+VA5VSQiECAxqvZlQsxe20L0ji5ghgVQ4fIpULMrwn77UiFYhcQrE/Fui3wi
+        z4O8URZCUySQ0ps1Ia0GR3S9wojzpVPw9gEdZzV3v2xMzT5CS+cE7Vk+dpOI3RQFC1EmqJwqFBEdOV2A
+        abpUphefYIZazoS5dwUUTXLFPBPvMsuDIkWuaJQDZfMc1EtGxevZ/tw17FY7pUGc/E5gbtlFRPhY1yxs
+        QNozBv4G8E1ogYJxLmUiTziUoQDyxtmobh/H1IPHArMPn2CZ3pgzdN/vMMzCLopYyTRHiJE3ysYOg0x4
+        xzTR+R9Hbkk7NPT8hojrt4Stm5CNlbz33VHnk64+GeK4tHSO46hjMYnIgRI544h2meVCgZyGprVj/P6P
+        X0hDEw8QQineSWSKJtmEHMiTGP6vdaZQRN8iHYe1YzxFb21CXJvp3xKwmYVPtAwCmosrpGglxRUNg1C1
+        ysNOcqZAkSuSGAUi2GGYia/1rmPbiTRs003F1/ppIlJ54yyx37x++8kM7LPIQWntABrpOzIq6SYO6pxv
+        J45PCfw23CKX0zbkq1lWjF/Jf//VcbOQ+Rp6LzRLx8hBP7TPFmHHSSIwIAJyziQKAtkCPMaiWMQOIt6u
+        nw7t04Uoqu5Dg2QE2UUSaOn5L3z2xYHtxMFvwpeil9PUv8QND/Cx+FB+n6m6nmXYWgGdCv7SrWkehmdE
+        HXaZZArn2w0yiIxAZAI09o1+Br6hrCgaZcD9Sh2qmgZR1zaMtNxm6BhcWvtKQZe/kvnoiS8itaNe1GzY
+        kRP+L34TioLcrmx4RFM/4EFiei05GkFd6zBu1A3gYmwj9FxLcNg2H1+foPTrpom+nksJfGIaUFrTj5qW
+        YdS2DCEsvgKHfriw+OXOY9rkky8eUXjM9a2WB3U37NCxiy8K2BTx0d8/3/+F2lGPdlvnRKTnt5DjIeGY
+        UdNM2GhvNQ8SuJX1U3OaYWYXhX2HXTr++o9d/yZffO9vVr0QsF/DnbobdkDHWwh4RQRvx/uET3eqmJqq
+        anmO6luEwiswB8lZjcgoaEM1pZmRTv2kzAacD8jGcZNg7D9ybnSbooEFPft7Ale8SDtjk2fPYVf6u2Fq
+        2l5bAl4RwcXCFfsR4Xefb9NSVVK1Cd1LkRF6v9XyxLeaHtij7ty3R92pQ2GfVdg/v1T/jtb+gcD7/Q6B
+        A3mJnKFyyJmGNmy/hqecqqbHT0D2qhCuYE4nHyWO7o8b4D6P8T7zGl67RbznkIucwEFnQaxy0ElO+YAT
+        Tf3vtimEjyo75pQyyYvgMZ7jNQxe/wsmJ/df0Zh/vpjXMzsAAAAASUVORK5CYII=
+</value>
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Name" xml:space="preserve">
+    <value>accordionControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControl, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoHTML.Name" xml:space="preserve">
+    <value>bbiExporttoHTML</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoHTML.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoODT.Name" xml:space="preserve">
+    <value>bbiExporttoODT</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoODT.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiUp.Name" xml:space="preserve">
+    <value>bbiUp</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiUp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv1.Name" xml:space="preserve">
+    <value>rpgReserv1</value>
+  </metadata>
+  <metadata name="rpgExport.Text" xml:space="preserve">
+    <value>Print And Export</value>
+  </metadata>
+  <metadata name="rpMain.Text" xml:space="preserve">
+    <value>Demo</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv2.Name" xml:space="preserve">
+    <value>rpgReserv2</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOCX.Name" xml:space="preserve">
+    <value>bbiExporttoDOCX</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOCX.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOC.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOC.Name" xml:space="preserve">
+    <value>bbiExporttoDOC</value>
+  </metadata>
+  <metadata name="lineLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+    <value>None</value>
+  </metadata>
+  <metadata name="pnlCaption.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 122</value>
+  </metadata>
+  <metadata name="bsiModules.Caption" xml:space="preserve">
+    <value>Modules</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmSolution.Name" xml:space="preserve">
+    <value>pmSolution</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmSolution.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Name" xml:space="preserve">
+    <value>gcContainer</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoMHT.Name" xml:space="preserve">
+    <value>bbiExporttoMHT</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoMHT.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiCSSolution.Caption" xml:space="preserve">
+    <value>C# Solution</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoRTF.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoRTF.Name" xml:space="preserve">
+    <value>bbiExporttoRTF</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiOpenSolution.Name" xml:space="preserve">
+    <value>bbiOpenSolution</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiOpenSolution.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="lineLabel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoEPUB.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoEPUB.Name" xml:space="preserve">
+    <value>bbiExporttoEPUB</value>
+  </metadata>
+  <metadata name="bbiExporttoText.Caption" xml:space="preserve">
+    <value>Export to Text</value>
+  </metadata>
+  <metadata name="bciShowRibbonPreview.Caption" xml:space="preserve">
+    <value>Show Ribbon Print Preview</value>
+  </metadata>
+  <metadata name="bbiPrint.Caption" xml:space="preserve">
+    <value>Print</value>
+  </metadata>
+  <metadata name="gcNavigations.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1, 1, 1, 1</value>
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </metadata>
+  <metadata name="pnlCaption.Text" xml:space="preserve">
+    <value>Demo</value>
+  </metadata>
+  <metadata name="pnlCaption.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>953, 47</value>
+  </metadata>
+  <metadata name="pnlCaption.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top</value>
+  </metadata>
+  <metadata name="bbiExporttoXLS.Caption" xml:space="preserve">
+    <value>Export to XLS</value>
+  </metadata>
+  <metadata name="bbiBuyNow.Caption" xml:space="preserve">
+    <value>Buy Now</value>
+  </metadata>
+  <metadata name="bbiAbout.Caption" xml:space="preserve">
+    <value>About</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Name" xml:space="preserve">
+    <value>gcDescription</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Type" xml:space="preserve">
+    <value>DevExpress.DXperience.Demos.DescriptionLabel, DevExpress.Tutorials.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="rpgAbout.Text" xml:space="preserve">
+    <value>DevExpress</value>
+  </metadata>
+  <metadata name="gcNavigations.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 122</value>
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Parent" xml:space="preserve">
+    <value>gcNavigations</value>
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Name" xml:space="preserve">
+    <value>horzSplitter</value>
+  </metadata>
+  <metadata name="bbiExporttoDOC.Caption" xml:space="preserve">
+    <value>Export to DOC</value>
+  </metadata>
+  <metadata name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RibbonMainForm</value>
+  </metadata>
+  <metadata name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>950, 652</value>
+  </metadata>
+  <metadata name="bbiShowInVisualStudio.Caption" xml:space="preserve">
+    <value>Run In Visual Studio</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
+    <value>ribbonStatusBar</value>
+  </metadata>
+  <metadata name="horzSplitter.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 399</value>
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </metadata>
+  <metadata name="bciFullWindow.Caption" xml:space="preserve">
+    <value>Full-Window Mode</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrint.Name" xml:space="preserve">
+    <value>bbiPrint</value>
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoImage.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoImage.Name" xml:space="preserve">
+    <value>bbiExporttoImage</value>
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciAllowFormSkin.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bciAllowFormSkin.Name" xml:space="preserve">
+    <value>bciAllowFormSkin</value>
+  </metadata>
+  <metadata name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>CenterScreen</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgActiveDemo.Name" xml:space="preserve">
+    <value>rpgActiveDemo</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgActiveDemo.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </metadata>
+  <metadata name="bbiUp.Caption" xml:space="preserve">
+    <value>Prev</value>
+  </metadata>
+  <metadata name="bbiVBSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFZCO1Zpc3VhbDtDb2RlO0xhbmd1
+        YWdlO1Byb2dyYW07QmFzaWPYyHX7AAAByUlEQVRYR8WUwXECMQxFKYESKIESaCAzlJAS6ICZNEAJlJBr
+        bikhJVACJWz0GMvzrdVm96QcHqy/ZemvbO9umqZ/JRUrScVKUrGSVKwkFStJxUpSsZLXz9vH196YGs8Y
+        5Nic895i4WacZBx5Gp/GKcvZH1qQLzprkMQ4Gns0/jKg3GNOTa5vNQtsMaDdejRNDdzbGM5t7HNw1Jya
+        fHUbTAc1em2aGnBN0Y5dNWcsoG5ne2ZaTHZo2poBtD6vOWMBWuaBN51r89qlH8MLrBn4Nnz+oDmHAmAB
+        nFoCH8mctv9ieIElA3RIuzq8PQwDCAuGA2NjbT/d8EJqIIPDmt6smWCBmqxvgz1r+zHixbcYAExctBYM
+        A6cFvxaJpu3necmAXkPgQ+XbCsuH0GmLfMFrG+zf208yLQ5qIDuEfKx8HvZea1YcwgLMaPt5w1hgzQDo
+        TehXfFbcsaC+DYa2n6sak28xwLX1mE0GSOQL3D1mYmJYM6AvMHxlh6KKBXKHfZHDdsTkoAYwiwlHWw/D
+        TRiKRixY2wacjVgc1MASHN5t19CxBbSON4B49xWMeVyEdXw1+8lXZkI1qVhJKlaSipWkYiWpWEkq1jHt
+        fgGt+ab9OzAGYwAAAABJRU5ErkJggg==
+</value>
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </metadata>
+  <metadata name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </metadata>
+  <metadata name="accordionControl1.Text" xml:space="preserve">
+    <value>navBarControl1</value>
+  </metadata>
+  <metadata name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 496</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiVBSolution.Name" xml:space="preserve">
+    <value>bbiVBSolution</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiVBSolution.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXML.Name" xml:space="preserve">
+    <value>bbiExporttoXML</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXML.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiExporttoRTF.Caption" xml:space="preserve">
+    <value>Export to RTF</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiShowInVisualStudio.Name" xml:space="preserve">
+    <value>bbiShowInVisualStudio</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiShowInVisualStudio.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bbiGetFreeSupport.Caption" xml:space="preserve">
+    <value>Get Free Support</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpMain.Name" xml:space="preserve">
+    <value>rpMain</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpMain.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </metadata>
+  <metadata name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmAppearance.Name" xml:space="preserve">
+    <value>pmAppearance</value>
+  </metadata>
+  <metadata name="&gt;&gt;pmAppearance.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Color Mixer</value>
+  </metadata>
+  <metadata name="bbiDown.Caption" xml:space="preserve">
+    <value>Next</value>
+  </metadata>
+  <metadata name="gcDescription.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 407</value>
+  </metadata>
+  <metadata name="lineLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Right</value>
+  </metadata>
+  <metadata name="lineLabel.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 496</value>
+  </metadata>
+  <metadata name="rpgCode.Text" xml:space="preserve">
+    <value>Code</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiCSSolution.Name" xml:space="preserve">
+    <value>bbiCSSolution</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiCSSolution.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bsiExporttoImageEx.Caption" xml:space="preserve">
+    <value>Export to Image</value>
+  </metadata>
+  <metadata name="gcDescription.AppearancePressed.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </metadata>
+  <metadata name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 13</value>
+  </metadata>
+  <metadata name="lineLabel.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 1</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExport.Name" xml:space="preserve">
+    <value>bbiExport</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgExport.Name" xml:space="preserve">
+    <value>rpgExport</value>
+  </metadata>
+  <metadata name="&gt;&gt;rpgExport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="bciAllowFormSkin.Caption" xml:space="preserve">
+    <value>Allow Form Skins</value>
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoText.Name" xml:space="preserve">
+    <value>bbiExporttoText</value>
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoText.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;demoCategory.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageCategory, DevExpress.XtraBars.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;demoCategory.Name" xml:space="preserve">
+    <value>demoCategory</value>
+  </metadata>
+</root>

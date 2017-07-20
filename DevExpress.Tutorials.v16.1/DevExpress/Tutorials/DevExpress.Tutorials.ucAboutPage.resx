@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="&gt;&gt;lcCopyright.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </metadata>
+  <metadata name="peLogo.Properties.NullText" xml:space="preserve">
+    <value> </value>
+  </metadata>
+  <metadata name="&gt;&gt;lcCopyright.Name" xml:space="preserve">
+    <value>lcCopyright</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcCopyright.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="layoutControlItem4.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </metadata>
+  <metadata name="esiStart3.Text" xml:space="preserve">
+    <value>esiStart3</value>
+  </metadata>
+  <metadata name="esiStart2.Text" xml:space="preserve">
+    <value>esiStart2</value>
+  </metadata>
+  <metadata name="esiStart1.Text" xml:space="preserve">
+    <value>esiStart1</value>
+  </metadata>
+  <metadata name="emptySpaceItem7.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart3.Name" xml:space="preserve">
+    <value>esiStart3</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="layoutControlItem5.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart2.Name" xml:space="preserve">
+    <value>esiStart2</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart1.Name" xml:space="preserve">
+    <value>esiStart1</value>
+  </metadata>
+  <metadata name="&gt;&gt;esiStart1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;versionControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </metadata>
+  <metadata name="layoutControlItem4.Text" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </metadata>
+  <metadata name="&gt;&gt;peProduct.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </metadata>
+  <metadata name="layoutControlItem5.Text" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </metadata>
+  <metadata name="layoutControlItem6.Text" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </metadata>
+  <metadata name="$this.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1065, 614</value>
+  </metadata>
+  <metadata name="simpleSeparator2.Text" xml:space="preserve">
+    <value>simpleSeparator2</value>
+  </metadata>
+  <metadata name="peLogo.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>783, 453</value>
+  </metadata>
+  <metadata name="simpleSeparator1.Text" xml:space="preserve">
+    <value>simpleSeparator1</value>
+  </metadata>
+  <metadata name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleSeparator2.Name" xml:space="preserve">
+    <value>simpleSeparator2</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleSeparator2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleSeparator, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="layoutControlItem2.Text" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleSeparator1.Name" xml:space="preserve">
+    <value>simpleSeparator1</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleSeparator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleSeparator, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="layoutControlItem3.Text" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </metadata>
+  <metadata name="peAwards.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>Transparent</value>
+  </metadata>
+  <metadata name="layoutControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </metadata>
+  <metadata name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="simpleButton1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </metadata>
+  <metadata name="emptySpaceItem6.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </metadata>
+  <metadata name="lcCopyright.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>7</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </metadata>
+  <metadata name="&gt;&gt;peProduct.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;peProduct.Name" xml:space="preserve">
+    <value>peProduct</value>
+  </metadata>
+  <metadata name="emptySpaceItem5.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </metadata>
+  <metadata name="&gt;&gt;lciStart.Name" xml:space="preserve">
+    <value>lciStart</value>
+  </metadata>
+  <metadata name="&gt;&gt;lciStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </metadata>
+  <metadata name="versionControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>5</value>
+  </metadata>
+  <metadata name="esiStart1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem2</value>
+  </metadata>
+  <metadata name="lciStart.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem7</value>
+  </metadata>
+  <metadata name="emptySpaceItem3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </metadata>
+  <metadata name="simpleButton1.Appearance.Font" type="System.Drawing.Font, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </metadata>
+  <metadata name="&gt;&gt;peAwards.Name" xml:space="preserve">
+    <value>peAwards</value>
+  </metadata>
+  <metadata name="&gt;&gt;peAwards.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="emptySpaceItem4.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </metadata>
+  <metadata name="simpleSeparator1.CustomizationFormText" xml:space="preserve">
+    <value>simpleSeparator1</value>
+  </metadata>
+  <metadata name="sliStart.Text" xml:space="preserve">
+    <value>Or use the navigation links on the left </value>
+  </metadata>
+  <metadata name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </metadata>
+  <metadata name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1065, 614</value>
+  </metadata>
+  <metadata name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="peProduct.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>32, 12</value>
+  </metadata>
+  <metadata name="layoutControlItem2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </metadata>
+  <metadata name="&gt;&gt;versionControl1.Name" xml:space="preserve">
+    <value>versionControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;versionControl1.Type" xml:space="preserve">
+    <value>DevExpress.Tutorials.VersionControl, DevExpress.Tutorials.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="simpleButton1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>439, 326</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcAbout.Name" xml:space="preserve">
+    <value>lcAbout</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="peAwards.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>729, 126</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </metadata>
+  <metadata name="emptySpaceItem1.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </metadata>
+  <metadata name="lcAbout.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+    <value>None</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="simpleButton1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>202, 22</value>
+  </metadata>
+  <metadata name="simpleButton1.Text" xml:space="preserve">
+    <value>Start the Demo</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem4.Name" xml:space="preserve">
+    <value>layoutControlItem4</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem5.Name" xml:space="preserve">
+    <value>layoutControlItem5</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem6.Name" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </metadata>
+  <metadata name="lcCopyright.Enabled" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcAbout.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </metadata>
+  <metadata name="peAwards.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>9</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcAbout.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </metadata>
+  <metadata name="emptySpaceItem1.Text" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem2.Name" xml:space="preserve">
+    <value>layoutControlItem2</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;layoutControlItem3.Name" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </metadata>
+  <metadata name="emptySpaceItem3.Text" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </metadata>
+  <metadata name="esiStart3.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem9</value>
+  </metadata>
+  <metadata name="emptySpaceItem5.Text" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </metadata>
+  <metadata name="peLogo.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>Transparent</value>
+  </metadata>
+  <metadata name="&gt;&gt;sliStart.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.SimpleLabelItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;sliStart.Name" xml:space="preserve">
+    <value>sliStart</value>
+  </metadata>
+  <metadata name="lcCopyright.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>999, 597</value>
+  </metadata>
+  <metadata name="peProduct.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1021, 66</value>
+  </metadata>
+  <metadata name="emptySpaceItem7.Text" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </metadata>
+  <metadata name="versionControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>270, 170</value>
+  </metadata>
+  <metadata name="esiStart2.CustomizationFormText" xml:space="preserve">
+    <value>emptySpaceItem8</value>
+  </metadata>
+  <metadata name="emptySpaceItem4.Text" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </metadata>
+  <metadata name="emptySpaceItem6.Text" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem1.Name" xml:space="preserve">
+    <value>emptySpaceItem1</value>
+  </metadata>
+  <metadata name="sliStart.CustomizationFormText" xml:space="preserve">
+    <value>LabelsimpleLabelItem1</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem3.Name" xml:space="preserve">
+    <value>emptySpaceItem3</value>
+  </metadata>
+  <metadata name="layoutControlItem6.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem6</value>
+  </metadata>
+  <metadata name="peAwards.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>30, 451</value>
+  </metadata>
+  <metadata name="peProduct.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem5.Name" xml:space="preserve">
+    <value>emptySpaceItem5</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem7.Name" xml:space="preserve">
+    <value>emptySpaceItem7</value>
+  </metadata>
+  <metadata name="&gt;&gt;peAwards.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem4.Name" xml:space="preserve">
+    <value>emptySpaceItem4</value>
+  </metadata>
+  <metadata name="lciStart.Text" xml:space="preserve">
+    <value>lciStart</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.EmptySpaceItem, DevExpress.XtraLayout.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;emptySpaceItem6.Name" xml:space="preserve">
+    <value>emptySpaceItem6</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucAboutPage</value>
+  </metadata>
+  <metadata name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.DXperience.Demos.TutorialControlBase, DevExpress.Tutorials.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="lcAbout.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>32, 82</value>
+  </metadata>
+  <metadata name="peLogo.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>8</value>
+  </metadata>
+  <metadata name="&gt;&gt;peLogo.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="lcAbout.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>725, 240</value>
+  </metadata>
+  <metadata name="lcAbout.Text" xml:space="preserve">
+    <value>lcAbout</value>
+  </metadata>
+  <metadata name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </metadata>
+  <metadata name="peAwards.Properties.NullText" xml:space="preserve">
+    <value> </value>
+  </metadata>
+  <metadata name="&gt;&gt;peAwards.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="&gt;&gt;peLogo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </metadata>
+  <metadata name="peProduct.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>Transparent</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </metadata>
+  <metadata name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>Root</value>
+  </metadata>
+  <metadata name="&gt;&gt;peLogo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
+  </metadata>
+  <metadata name="&gt;&gt;peLogo.Name" xml:space="preserve">
+    <value>peLogo</value>
+  </metadata>
+  <metadata name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>Root</value>
+  </metadata>
+  <metadata name="peLogo.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>270, 122</value>
+  </metadata>
+  <metadata name="lcAbout.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>6</value>
+  </metadata>
+  <metadata name="lcCopyright.Text" xml:space="preserve">
+    <value>lcCopyright</value>
+  </metadata>
+  <metadata name="lcCopyright.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>54, 13</value>
+  </metadata>
+  <metadata name="&gt;&gt;lcCopyright.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 13</value>
+  </metadata>
+  <metadata name="&gt;&gt;peProduct.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="peProduct.Properties.NullText" xml:space="preserve">
+    <value> </value>
+  </metadata>
+  <metadata name="layoutControlItem3.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem3</value>
+  </metadata>
+  <metadata name="simpleSeparator2.CustomizationFormText" xml:space="preserve">
+    <value>simpleSeparator2</value>
+  </metadata>
+  <metadata name="&gt;&gt;versionControl1.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </metadata>
+  <metadata name="versionControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>783, 82</value>
+  </metadata>
+</root>

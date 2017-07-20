@@ -144,7 +144,7 @@ namespace XtraPrintingDemos.HierarchicalReport {
         }
         #endregion
         private DataView CreateDataView(string tbl, string s) {
-            string fileName = XtraPrintingDemos.Helper.GetRelativePath("..\\..\\..\\Data\\nwind.mdb");
+            string fileName = XtraPrintingDemos.Helper.GetRelativePath("Data\\nwind.mdb");
             if(!string.IsNullOrEmpty(fileName)) {
                 DataSet dataSet1 = new DataSet();
                 string query = "SELECT * FROM " + tbl + s;
