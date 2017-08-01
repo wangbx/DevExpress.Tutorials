@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.IO;
 using System.Linq;
 using System.Resources;
+using System.Runtime.InteropServices;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
@@ -29,7 +32,7 @@ namespace ResourceConvertToResx
             Console.Read();
         }
 
-        private static string filePath = @"D:\Work\Test\DevExpress.v16.1\DevExpress.Tutorials.v16.1\\";
+        private static string filePath = @"D:\Work\Test\DevExpress.v16.1\DevExpress.Tutorials.v16.1\";
         static string projectFilePath = null;
         static string projectFileName = null;
         static XmlDocument projectXmlFile = null;
@@ -126,6 +129,7 @@ namespace ResourceConvertToResx
                         //continue;
                         resourceFileName = tempResourceFileName + ".resx";
                         currentFilePath = filePath;
+                        relativePath = filePath;
                         dependFileName = "";
                     }
                 }
@@ -157,7 +161,23 @@ namespace ResourceConvertToResx
                 IDictionaryEnumerator en = reader.GetEnumerator();
                 while (en.MoveNext())
                 {
-                    writer.AddMetadata(en.Key.ToString(), en.Value);
+                    if (en.Value != null && en.Value.GetType().Name == "PinnedBufferMemoryStream")
+                    {
+                        UnmanagedMemoryStream us = en.Value as UnmanagedMemoryStream;
+                        byte[] usArray = new byte [(int)us.Length];
+                        us.Read(usArray,0, usArray.Length);
+
+                        MemoryStream ms = new MemoryStream(usArray, true);
+                        writer.AddMetadata(en.Key.ToString(), ms);
+
+                        //FileStream fs = new FileStream("D:\\test.xml" , FileMode.CreateNew);
+                        //fs.Write(usArray,0, usArray.Length);
+                        //fs.Dispose();
+                        //string content = ASCIIEncoding.ASCII.GetString(usArray,0,usArray.Length);
+                        //string content2 = Encoding.UTF8.GetString(usArray);
+                    }
+                    else
+                        writer.AddMetadata(en.Key.ToString(), en.Value);
                 }
                 writer.Close();
                 writer.Dispose();
@@ -170,7 +190,7 @@ namespace ResourceConvertToResx
                 if (projectFileAddInfo.ContainsKey(perfixInfo + file.Name))
                     continue;
 
-                projectFileAddInfo.Add(perfixInfo + file.Name, new List<string>() { resourceFileName, dependFileName });
+                projectFileAddInfo.Add(perfixInfo + file.Name, new List<string>() { relativePath, dependFileName });
                 file.Delete();
             }
             WriteResourceInfoToProjectFile(projectFileAddInfo);
@@ -187,51 +207,56 @@ namespace ResourceConvertToResx
                 Console.WriteLine("无待处理资源文件");
                 return;
             }
-            //string Xpath =   "/Project/ItemGroup";
-            //XmlNode parentNode = projectXmlFile.DocumentElement.SelectSingleNode(Xpath); 
-            XmlNodeList parentNode = projectXmlFile.GetElementsByTagName("ItemGroup");
-            if (parentNode == null)
+            //项目文档中使用了命名空间 ，使用XPath时 只有包含命名空间信息才可查询到节点信息
+            string xPath = @"/ns:Project/ns:ItemGroup";
+            XmlNamespaceManager nsmgr = new XmlNamespaceManager(projectXmlFile.NameTable);
+            nsmgr.AddNamespace("ns", projectXmlFile.DocumentElement.NamespaceURI);
+            ////XmlNode parentNode2 = projectXmlFile.DocumentElement.SelectSingleNode(xPath, nsmgr);
+            XmlNodeList parentNode = projectXmlFile.DocumentElement.SelectNodes(xPath, nsmgr);
+            xPath = @"/ns:Project/ns:ItemGroup/ns:EmbeddedResource";
+            XmlNodeList ResourceList = projectXmlFile.DocumentElement.SelectNodes(xPath, nsmgr);
+
+            //XmlNodeList parentNode = projectXmlFile.GetElementsByTagName("ItemGroup");
+            if (parentNode == null || parentNode.Count  < 1)
             {
                 Console.WriteLine("未查找到ItemGroup节点");
                 return;
             }
-            if (parentNode.Count != 3)
-            {
-                Console.WriteLine("ItemGroup节点数量异常");
-                return;
-            }
-            XmlNodeList ResourceList = parentNode[0].ChildNodes;// ("EmbeddedResource");
+            
             bool tempFlag = false;
 
             foreach (var Item in projectFileAddInfo)
             {
                 tempFlag = false;
-                XmlNode tempNode = null;
-                foreach (XmlNode ChildNode in ResourceList)
+                List<XmlNode> existList = new List<XmlNode>();
+                if(ResourceList != null && ResourceList.Count > 0)
                 {
-                    if (ChildNode.Name != "EmbeddedResource")
-                        continue;
-                    if (ChildNode.Attributes["Include"] == null)
-                        continue;
-                    if (ChildNode.Attributes["Include"].Value == Item.Key)
+                    foreach (XmlNode ChildNode in ResourceList)
                     {
-                        tempNode = ChildNode;
-                        tempFlag = true;
-                        break;
+                        if (ChildNode.Name != "EmbeddedResource")
+                            continue;
+                        if (ChildNode.Attributes["Include"] == null)
+                            continue;
+                        if (ChildNode.Attributes["Include"].Value == Item.Key || ChildNode.Attributes["Include"].Value == Item.Value[0])
+                        {
+                            existList.Add(ChildNode);
+                            tempFlag = true;
+                        }
                     }
                 }
                 if (tempFlag)
                 {
-                    tempNode.ParentNode.RemoveChild(tempNode);
+                    foreach(XmlNode tempNode in existList)
+                        tempNode.ParentNode.RemoveChild(tempNode);
                 }
-                XmlNode resourcenNode = projectXmlFile.CreateElement("EmbeddedResource");
+                XmlNode resourcenNode = projectXmlFile.CreateElement("EmbeddedResource", projectXmlFile.DocumentElement.NamespaceURI);
                 XmlAttribute resourcenNodeAttr = projectXmlFile.CreateAttribute("Include");
                 resourcenNodeAttr.Value = Item.Value[0];
                 resourcenNode.Attributes.Append(resourcenNodeAttr);
 
                 if (!string.IsNullOrWhiteSpace(Item.Value[1]))
                 {
-                    XmlNode dependNode = projectXmlFile.CreateElement("DependentUpon");
+                    XmlNode dependNode = projectXmlFile.CreateElement("DependentUpon", projectXmlFile.DocumentElement.NamespaceURI);
                     XmlNode dependNodeText = projectXmlFile.CreateTextNode(Item.Value[1]);
                     //dependNodeText.Value = Item.Value[1];
                     dependNode.AppendChild(dependNodeText);

@@ -326,34 +326,6 @@
     <Compile Include="DevExpress\Tutorials\ControlFinder.cs" />
     <Compile Include="DevExpress\Demos\XmlSerialization\SerializeFormat.cs" />
     <Compile Include="DevExpress\Demos\XmlSerialization\XMLSerializer!1.cs" />
-    <EmbeddedResource Include="DevExpress\DXperience\Demos\RatingForm.resx">
-      <DependentUpon>RatingForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DevExpress\DXperience\Demos\RibbonMainForm.resx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DevExpress\Tutorials\Properties\Resources.resx">
-      <DependentUpon>Resources.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.v16.1.g.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.CodeDemo.CodeTutorialControlBase.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ColoredTextControl.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Description.Controls.GuideForm.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMain.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMainBase.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmMainTreeViewReg.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmWhatsThis.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.FrmWhatsThisTextOnly.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.frmMain.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ucOverviewPage.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ModuleBase.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ModuleWhatsThis.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.RatingForm.resources">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\DevExpress.Tutorials.ucAboutPage.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.XtraPropertyGrid.resources" />
-    <EmbeddedResource Include="Resources\DevExpress.DXperience.Demos.frmProgress.resources" />
     <EmbeddedResource Include="DevExpress.Tutorials.MainDemo.menu.bmp" />
     <EmbeddedResource Include="DevExpress.Tutorials.MainDemo.Properties.png" />
     <EmbeddedResource Include="DevExpress.Tutorials.Images.awards.png" />
@@ -452,6 +424,61 @@
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Form1.cs" />
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Form1.Designer.cs" />
     <EmbeddedResource Include="Resources\DevExpress.Tutorials.CodeDemoBase.TemplateCSProject.Program.cs" />
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\RatingForm.resx">
+      <DependentUpon>RatingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\RibbonMainForm.resx">
+      <DependentUpon>RibbonMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\Properties\Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Description\Controls\GuideForm.resx">
+      <DependentUpon>GuideForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\CodeDemo\CodeTutorialControlBase.resx">
+      <DependentUpon>CodeTutorialControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\frmProgress.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DXperience\Demos\XtraPropertyGrid.resx">
+      <DependentUpon>XtraPropertyGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\ColoredTextControl.resx">
+      <DependentUpon>ColoredTextControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\FrmMainBase.resx">
+      <DependentUpon>FrmMainBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\FrmMainTreeViewReg.resx">
+      <DependentUpon>FrmMainTreeViewReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\FrmWhatsThis.resx">
+      <DependentUpon>FrmWhatsThis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\FrmWhatsThisTextOnly.resx">
+      <DependentUpon>FrmWhatsThisTextOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\ModuleBase.resx">
+      <DependentUpon>ModuleBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\ModuleWhatsThis.resx">
+      <DependentUpon>ModuleWhatsThis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\ucAboutPage.resx">
+      <DependentUpon>ucAboutPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\Tutorials\ucOverviewPage.resx">
+      <DependentUpon>ucOverviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D:\Work\Test\DevExpress.v16.1\DevExpress.Tutorials.v16.1\DevExpress.Tutorials.v16.1.g.resx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Awards" />

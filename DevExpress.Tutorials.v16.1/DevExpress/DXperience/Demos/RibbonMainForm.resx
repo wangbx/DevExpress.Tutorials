@@ -117,29 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="bbiExporttoODT.Caption" xml:space="preserve">
+  <metadata name="bbiExporttoODT.Caption" xml:space="preserve">
     <value>Export to ODT</value>
-  </data>
-  <data name="bbiPrintPreview.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiPrintPreview.Caption" xml:space="preserve">
     <value>Print Preview</value>
-  </data>
-  <data name="rpgActiveDemo.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgActiveDemo.Text" xml:space="preserve">
     <value>Active Demo</value>
-  </data>
-  <data name="&gt;&gt;pmExport.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmExport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pmExport.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmExport.Name" xml:space="preserve">
     <value>pmExport</value>
-  </data>
-  <data name="&gt;&gt;bbiGetFreeSupport.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGetFreeSupport.Name" xml:space="preserve">
     <value>bbiGetFreeSupport</value>
-  </data>
-  <data name="&gt;&gt;bbiGetFreeSupport.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGetFreeSupport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bbiVBSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="bbiVBSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFZCO1Zpc3VhbDtDb2RlO0xhbmd1
@@ -148,164 +147,161 @@
         Qf8yLAZgEi4W6rehphjQgqFjgJJRMPO8hQBoUdTXAkIh3k9hPoW+NmjfBroPQLNPMLyBfgvodR+gySjw
         CfSzDQp0H3BDIQt8ffryBDa8/sZfSc0RUnOE1PyeOp2j9sR6Icn/0AAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ribbonControl1.ApplicationButtonText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+  </metadata>
+  <metadata name="ribbonControl1.ApplicationButtonText" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value />
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pnlCaption.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="pnlCaption.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>4</value>
-  </data>
-  <data name="rpgAppearance.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgAppearance.Text" xml:space="preserve">
     <value>Appearance</value>
-  </data>
-  <data name="&gt;&gt;bbiCode.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiCode.Name" xml:space="preserve">
     <value>bbiCode</value>
-  </data>
-  <data name="&gt;&gt;bbiCode.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiCode.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiActiveDemo.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiActiveDemo.Caption" xml:space="preserve">
     <value>Run Active Demo</value>
-  </data>
-  <data name="&gt;&gt;bbiAbout.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiAbout.Name" xml:space="preserve">
     <value>bbiAbout</value>
-  </data>
-  <data name="&gt;&gt;bbiAbout.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiAbout.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;rgbiSkins.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rgbiSkins.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.RibbonGalleryBarItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rgbiSkins.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rgbiSkins.Name" xml:space="preserve">
     <value>rgbiSkins</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXLSX.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLSX.Name" xml:space="preserve">
     <value>bbiExporttoXLSX</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXLSX.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLSX.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="horzSplitter.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="horzSplitter.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>937, 8</value>
-  </data>
-  <data name="horzSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="horzSplitter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Bottom</value>
-  </data>
-  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="panelControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>200, 169</value>
-  </data>
-  <data name="&gt;&gt;bbiGettingStarted.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGettingStarted.Name" xml:space="preserve">
     <value>bbiGettingStarted</value>
-  </data>
-  <data name="&gt;&gt;bbiGettingStarted.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGettingStarted.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <assembly alias="DevExpress.XtraEditors.v16.1" name="DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-  <data name="gcDescription.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1">
+  </metadata>
+  <metadata name="gcDescription.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
     <value>Vertical</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoPDF.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoPDF.Name" xml:space="preserve">
     <value>bbiExporttoPDF</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoPDF.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoPDF.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiExporttoXLSX.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoXLSX.Caption" xml:space="preserve">
     <value>Export to XLSX</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="$this.Text" xml:space="preserve">
     <value>Features Demo (C# code)</value>
-  </data>
-  <data name="&gt;&gt;bsiModules.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bsiModules.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bsiModules.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bsiModules.Name" xml:space="preserve">
     <value>bsiModules</value>
-  </data>
-  <data name="gcDescription.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="gcDescription.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;bbiActiveDemo.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiActiveDemo.Name" xml:space="preserve">
     <value>bbiActiveDemo</value>
-  </data>
-  <data name="&gt;&gt;bbiActiveDemo.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiActiveDemo.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiExporttoImage.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoImage.Caption" xml:space="preserve">
     <value>Export to Image</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gcDescription.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;gcDescription.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Parent" xml:space="preserve">
     <value>panelControl1</value>
-  </data>
-  <data name="gcContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="gcContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Fill</value>
-  </data>
-  <data name="gcContainer.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="gcContainer.Text" xml:space="preserve">
     <value>Tutorial:</value>
-  </data>
-  <data name="gcContainer.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="gcContainer.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>937, 391</value>
-  </data>
-  <data name="rgbiSkins.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="rgbiSkins.Caption" xml:space="preserve">
     <value>Skins</value>
-  </data>
-  <data name="gcNavigations.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="gcNavigations.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;gcNavigations.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;gcNavigations.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Name" xml:space="preserve">
     <value>gcNavigations</value>
-  </data>
-  <data name="gcNavigations.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="gcNavigations.Text" xml:space="preserve">
     <value>Navigations:</value>
-  </data>
-  <data name="gcNavigations.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="gcNavigations.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>200, 498</value>
-  </data>
-  <data name="gcNavigations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="gcNavigations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Left</value>
-  </data>
-  <data name="bbiExporttoMHT.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoMHT.Caption" xml:space="preserve">
     <value>Export to MHT</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="$this.ClientSize" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1153, 651</value>
-  </data>
-  <data name="demoCategory.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="demoCategory.Text" xml:space="preserve">
     <value>Demo</value>
-  </data>
-  <data name="bciFilter.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bciFilter.Caption" xml:space="preserve">
     <value>Filter Box</value>
-  </data>
-  <data name="gcContainer.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="gcContainer.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>8, 8</value>
-  </data>
-  <data name="&gt;&gt;rpgNavigation.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgNavigation.Name" xml:space="preserve">
     <value>rpgNavigation</value>
-  </data>
-  <data name="&gt;&gt;rpgNavigation.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgNavigation.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pmPrintOptions.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmPrintOptions.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pmPrintOptions.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmPrintOptions.Name" xml:space="preserve">
     <value>pmPrintOptions</value>
-  </data>
-  <data name="bbiCSSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="bbiCSSolution.Glyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAEMjO0NTaGFycDtDb2RlO0xhbmd1
@@ -315,116 +311,116 @@
         ZhNJ/U1W+AQ8Xjuave/KUYML4I5q4jk8rGgBkv0khKsdHlakYg+p+D9l+AHYabV451D3aQAAAABJRU5E
         rkJggg==
 </value>
-  </data>
-  <data name="&gt;&gt;bbiPrintPreview.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrintPreview.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiPrintPreview.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrintPreview.Name" xml:space="preserve">
     <value>bbiPrintPreview</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXLS.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLS.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXLS.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXLS.Name" xml:space="preserve">
     <value>bbiExporttoXLS</value>
-  </data>
-  <data name="ribbonStatusBar.Visible" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="ribbonStatusBar.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>False</value>
-  </data>
-  <data name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="rpgNavigation.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgNavigation.Text" xml:space="preserve">
     <value>Navigation</value>
-  </data>
-  <data name="&gt;&gt;bciFilter.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciFilter.Name" xml:space="preserve">
     <value>bciFilter</value>
-  </data>
-  <data name="&gt;&gt;bciFilter.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciFilter.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pnlCaption.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Type" xml:space="preserve">
     <value>DevExpress.Utils.Frames.ApplicationCaption8_1, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pnlCaption.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Name" xml:space="preserve">
     <value>pnlCaption</value>
-  </data>
-  <data name="&gt;&gt;lineLabel.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Name" xml:space="preserve">
     <value>lineLabel</value>
-  </data>
-  <data name="&gt;&gt;lineLabel.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bsiExporttoImageEx.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bsiExporttoImageEx.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bsiExporttoImageEx.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bsiExporttoImageEx.Name" xml:space="preserve">
     <value>bsiExporttoImageEx</value>
-  </data>
-  <data name="bbiGenerateReport.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiGenerateReport.Caption" xml:space="preserve">
     <value>Generate Report</value>
-  </data>
-  <data name="&gt;&gt;gcContainer.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;bbiDown.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiDown.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiDown.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiDown.Name" xml:space="preserve">
     <value>bbiDown</value>
-  </data>
-  <data name="rpgView.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgView.Text" xml:space="preserve">
     <value>View</value>
-  </data>
-  <data name="bbiExporttoEPUB.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoEPUB.Caption" xml:space="preserve">
     <value>Export to EPUB</value>
-  </data>
-  <data name="demoCategory.Color" type="System.Drawing.Color, System.Drawing">
+  </metadata>
+  <metadata name="demoCategory.Color" type="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>Orange</value>
-  </data>
-  <data name="bbiGettingStarted.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiGettingStarted.Caption" xml:space="preserve">
     <value>Getting Started</value>
-  </data>
-  <data name="&gt;&gt;accordionControl1.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;rpgAppearance.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgAppearance.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgAppearance.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgAppearance.Name" xml:space="preserve">
     <value>rpgAppearance</value>
-  </data>
-  <data name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1, 1</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Name" xml:space="preserve">
     <value>ribbonControl1</value>
-  </data>
-  <data name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiVBSolution.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiVBSolution.Caption" xml:space="preserve">
     <value>VB Solution</value>
-  </data>
-  <data name="ribbonStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="ribbonStatusBar.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 620</value>
-  </data>
-  <data name="&gt;&gt;bbiBuyNow.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiBuyNow.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiBuyNow.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiBuyNow.Name" xml:space="preserve">
     <value>bbiBuyNow</value>
-  </data>
-  <data name="bbiExporttoXML.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoXML.Caption" xml:space="preserve">
     <value>Export to XML</value>
-  </data>
-  <data name="bbiCSSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="bbiCSSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAldEVYdFRpdGxlAEMjO0NTaGFycDtDb2RlO0xhbmd1
@@ -438,68 +434,68 @@
         YSE0KXC3Hjo3fy2RVAQlZhHxn1DjbxYASs5ofhWxL4Cxyk+KRVYbbAmp2JJUbEkqtiQVW5KKLUnFdnSr
         H0OeNKGkCnPnAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="ribbonStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="ribbonStatusBar.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1153, 31</value>
-  </data>
-  <data name="&gt;&gt;gcContainer.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Parent" xml:space="preserve">
     <value>panelControl1</value>
-  </data>
-  <data name="&gt;&gt;accordionControl1.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Parent" xml:space="preserve">
     <value>gcNavigations</value>
-  </data>
-  <data name="bbiExporttoHTML.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoHTML.Caption" xml:space="preserve">
     <value>Export to HTML</value>
-  </data>
-  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="panelControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;rpgCode.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgCode.Name" xml:space="preserve">
     <value>rpgCode</value>
-  </data>
-  <data name="&gt;&gt;rpgCode.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgCode.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiCode.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiCode.Caption" xml:space="preserve">
     <value>Show Code</value>
-  </data>
-  <data name="bbiExport.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExport.Caption" xml:space="preserve">
     <value>Export</value>
-  </data>
-  <data name="bbiExporttoDOCX.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoDOCX.Caption" xml:space="preserve">
     <value>Export to DOCX</value>
-  </data>
-  <data name="panelControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  </metadata>
+  <metadata name="panelControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>8, 8, 8, 8</value>
-  </data>
-  <data name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="ribbonControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1153, 122</value>
-  </data>
-  <data name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;defaultLookAndFeel1.Type" xml:space="preserve">
     <value>DevExpress.LookAndFeel.DefaultLookAndFeel, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;defaultLookAndFeel1.Name" xml:space="preserve">
     <value>defaultLookAndFeel1</value>
-  </data>
-  <data name="bbiOpenSolution.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiOpenSolution.Caption" xml:space="preserve">
     <value>Open Solution</value>
-  </data>
-  <data name="horzSplitter.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="horzSplitter.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>7</value>
-  </data>
-  <data name="&gt;&gt;bciFullWindow.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciFullWindow.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bciFullWindow.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciFullWindow.Name" xml:space="preserve">
     <value>bciFullWindow</value>
-  </data>
-  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Fill</value>
-  </data>
-  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="panelControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>953, 451</value>
-  </data>
-  <data name="gcDescription.AppearanceDisabled.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="gcDescription.AppearanceDisabled.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUASW5mbzttEi2GAAAKW0lEQVRYR5VWd1DVVxYmbdOTzc5sZst/O7M7s7Ozs9mdzCRZE5WiYCFERSmS
@@ -548,8 +544,8 @@
         A3mJnKFyyJmGNmy/hqecqqbHT0D2qhCuYE4nHyWO7o8b4D6P8T7zGl67RbznkIucwEFnQaxy0ElO+YAT
         Tf3vtimEjyo75pQyyYvgMZ7jNQxe/wsmJ/df0Zh/vpjXMzsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="gcDescription.AppearanceHovered.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="gcDescription.AppearanceHovered.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUASW5mbzttEi2GAAAKW0lEQVRYR5VWd1DVVxYmbdOTzc5sZst/O7M7s7Ozs9mdzCRZE5WiYCFERSmS
@@ -598,47 +594,47 @@
         A3mJnKFyyJmGNmy/hqecqqbHT0D2qhCuYE4nHyWO7o8b4D6P8T7zGl67RbznkIucwEFnQaxy0ElO+YAT
         Tf3vtimEjyo75pQyyYvgMZ7jNQxe/wsmJ/df0Zh/vpjXMzsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="gcContainer.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="gcContainer.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;rpgAbout.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgAbout.Name" xml:space="preserve">
     <value>rpgAbout</value>
-  </data>
-  <data name="&gt;&gt;rpgAbout.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgAbout.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bciShowRibbonPreview.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciShowRibbonPreview.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bciShowRibbonPreview.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciShowRibbonPreview.Name" xml:space="preserve">
     <value>bciShowRibbonPreview</value>
-  </data>
-  <data name="bbiExporttoPDF.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoPDF.Caption" xml:space="preserve">
     <value>Export to PDF</value>
-  </data>
-  <data name="gcDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="gcDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Bottom</value>
-  </data>
-  <data name="gcDescription.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="gcDescription.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>937, 36</value>
-  </data>
-  <data name="accordionControl1.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="accordionControl1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;bbiGenerateReport.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGenerateReport.Name" xml:space="preserve">
     <value>bbiGenerateReport</value>
-  </data>
-  <data name="&gt;&gt;bbiGenerateReport.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiGenerateReport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgView.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgView.Name" xml:space="preserve">
     <value>rpgView</value>
-  </data>
-  <data name="&gt;&gt;rpgView.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgView.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="gcDescription.Appearance.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="gcDescription.Appearance.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUASW5mbzttEi2GAAAKW0lEQVRYR5VWd1DVVxYmbdOTzc5sZst/O7M7s7Ozs9mdzCRZE5WiYCFERSmS
@@ -687,248 +683,248 @@
         A3mJnKFyyJmGNmy/hqecqqbHT0D2qhCuYE4nHyWO7o8b4D6P8T7zGl67RbznkIucwEFnQaxy0ElO+YAT
         Tf3vtimEjyo75pQyyYvgMZ7jNQxe/wsmJ/df0Zh/vpjXMzsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="&gt;&gt;accordionControl1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Name" xml:space="preserve">
     <value>accordionControl1</value>
-  </data>
-  <data name="&gt;&gt;accordionControl1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;accordionControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Navigation.AccordionControl, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoHTML.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoHTML.Name" xml:space="preserve">
     <value>bbiExporttoHTML</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoHTML.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoHTML.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoODT.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoODT.Name" xml:space="preserve">
     <value>bbiExporttoODT</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoODT.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoODT.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiUp.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiUp.Name" xml:space="preserve">
     <value>bbiUp</value>
-  </data>
-  <data name="&gt;&gt;bbiUp.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiUp.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgReserv1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgReserv1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv1.Name" xml:space="preserve">
     <value>rpgReserv1</value>
-  </data>
-  <data name="rpgExport.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgExport.Text" xml:space="preserve">
     <value>Print And Export</value>
-  </data>
-  <data name="rpMain.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpMain.Text" xml:space="preserve">
     <value>Demo</value>
-  </data>
-  <data name="&gt;&gt;rpgReserv2.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv2.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgReserv2.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgReserv2.Name" xml:space="preserve">
     <value>rpgReserv2</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoDOCX.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOCX.Name" xml:space="preserve">
     <value>bbiExporttoDOCX</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoDOCX.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOCX.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoDOC.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOC.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoDOC.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoDOC.Name" xml:space="preserve">
     <value>bbiExporttoDOC</value>
-  </data>
-  <data name="lineLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1">
+  </metadata>
+  <metadata name="lineLabel.AutoSizeMode" type="DevExpress.XtraEditors.LabelAutoSizeMode, DevExpress.XtraEditors.v16.1, Version=16.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
     <value>None</value>
-  </data>
-  <data name="pnlCaption.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="pnlCaption.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>200, 122</value>
-  </data>
-  <data name="bsiModules.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bsiModules.Caption" xml:space="preserve">
     <value>Modules</value>
-  </data>
-  <data name="&gt;&gt;pmSolution.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmSolution.Name" xml:space="preserve">
     <value>pmSolution</value>
-  </data>
-  <data name="&gt;&gt;pmSolution.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmSolution.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;gcContainer.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Name" xml:space="preserve">
     <value>gcContainer</value>
-  </data>
-  <data name="&gt;&gt;gcContainer.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcContainer.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoMHT.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoMHT.Name" xml:space="preserve">
     <value>bbiExporttoMHT</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoMHT.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoMHT.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiCSSolution.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiCSSolution.Caption" xml:space="preserve">
     <value>C# Solution</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoRTF.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoRTF.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoRTF.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoRTF.Name" xml:space="preserve">
     <value>bbiExporttoRTF</value>
-  </data>
-  <data name="&gt;&gt;bbiOpenSolution.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiOpenSolution.Name" xml:space="preserve">
     <value>bbiOpenSolution</value>
-  </data>
-  <data name="&gt;&gt;bbiOpenSolution.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiOpenSolution.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="lineLabel.TabIndex" type="System.Int32, mscorlib">
+  </metadata>
+  <metadata name="lineLabel.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoEPUB.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoEPUB.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoEPUB.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoEPUB.Name" xml:space="preserve">
     <value>bbiExporttoEPUB</value>
-  </data>
-  <data name="bbiExporttoText.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoText.Caption" xml:space="preserve">
     <value>Export to Text</value>
-  </data>
-  <data name="bciShowRibbonPreview.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bciShowRibbonPreview.Caption" xml:space="preserve">
     <value>Show Ribbon Print Preview</value>
-  </data>
-  <data name="bbiPrint.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiPrint.Caption" xml:space="preserve">
     <value>Print</value>
-  </data>
-  <data name="gcNavigations.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  </metadata>
+  <metadata name="gcNavigations.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>1, 1, 1, 1</value>
-  </data>
-  <data name="&gt;&gt;horzSplitter.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Parent" xml:space="preserve">
     <value>panelControl1</value>
-  </data>
-  <data name="pnlCaption.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="pnlCaption.Text" xml:space="preserve">
     <value>Demo</value>
-  </data>
-  <data name="pnlCaption.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="pnlCaption.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>953, 47</value>
-  </data>
-  <data name="pnlCaption.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="pnlCaption.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Top</value>
-  </data>
-  <data name="bbiExporttoXLS.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoXLS.Caption" xml:space="preserve">
     <value>Export to XLS</value>
-  </data>
-  <data name="bbiBuyNow.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiBuyNow.Caption" xml:space="preserve">
     <value>Buy Now</value>
-  </data>
-  <data name="bbiAbout.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiAbout.Caption" xml:space="preserve">
     <value>About</value>
-  </data>
-  <data name="&gt;&gt;gcDescription.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Name" xml:space="preserve">
     <value>gcDescription</value>
-  </data>
-  <data name="&gt;&gt;gcDescription.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcDescription.Type" xml:space="preserve">
     <value>DevExpress.DXperience.Demos.DescriptionLabel, DevExpress.Tutorials.v16.1, Culture=neutral</value>
-  </data>
-  <data name="rpgAbout.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgAbout.Text" xml:space="preserve">
     <value>DevExpress</value>
-  </data>
-  <data name="gcNavigations.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="gcNavigations.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 122</value>
-  </data>
-  <data name="&gt;&gt;horzSplitter.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;lineLabel.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.Parent" xml:space="preserve">
     <value>gcNavigations</value>
-  </data>
-  <data name="&gt;&gt;horzSplitter.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;horzSplitter.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;horzSplitter.Name" xml:space="preserve">
     <value>horzSplitter</value>
-  </data>
-  <data name="bbiExporttoDOC.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoDOC.Caption" xml:space="preserve">
     <value>Export to DOC</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>RibbonMainForm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>950, 652</value>
-  </data>
-  <data name="bbiShowInVisualStudio.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiShowInVisualStudio.Caption" xml:space="preserve">
     <value>Run In Visual Studio</value>
-  </data>
-  <data name="&gt;&gt;gcNavigations.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonStatusBar, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;ribbonStatusBar.Name" xml:space="preserve">
     <value>ribbonStatusBar</value>
-  </data>
-  <data name="horzSplitter.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="horzSplitter.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>8, 399</value>
-  </data>
-  <data name="&gt;&gt;gcNavigations.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;gcNavigations.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="bciFullWindow.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bciFullWindow.Caption" xml:space="preserve">
     <value>Full-Window Mode</value>
-  </data>
-  <data name="&gt;&gt;bbiPrint.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrint.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiPrint.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiPrint.Name" xml:space="preserve">
     <value>bbiPrint</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Name" xml:space="preserve">
     <value>panelControl1</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoImage.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoImage.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoImage.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoImage.Name" xml:space="preserve">
     <value>bbiExporttoImage</value>
-  </data>
-  <data name="&gt;&gt;pnlCaption.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;bciAllowFormSkin.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciAllowFormSkin.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bciAllowFormSkin.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bciAllowFormSkin.Name" xml:space="preserve">
     <value>bciAllowFormSkin</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+  </metadata>
+  <metadata name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;rpgActiveDemo.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgActiveDemo.Name" xml:space="preserve">
     <value>rpgActiveDemo</value>
-  </data>
-  <data name="&gt;&gt;rpgActiveDemo.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgActiveDemo.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;lineLabel.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;lineLabel.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="bbiUp.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiUp.Caption" xml:space="preserve">
     <value>Prev</value>
-  </data>
-  <data name="bbiVBSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="bbiVBSolution.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAArdEVYdFRpdGxlAFZCO1Zpc3VhbDtDb2RlO0xhbmd1
@@ -942,89 +938,89 @@
         TRiKRixY2wacjVgc1MASHN5t19CxBbSON4B49xWMeVyEdXw1+8lXZkI1qVhJKlaSipWkYiWpWEkq1jHt
         fgGt+ab9OzAGYwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="&gt;&gt;pnlCaption.ZOrder" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pnlCaption.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Fill</value>
-  </data>
-  <data name="accordionControl1.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="accordionControl1.Text" xml:space="preserve">
     <value>navBarControl1</value>
-  </data>
-  <data name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>192, 496</value>
-  </data>
-  <data name="&gt;&gt;bbiVBSolution.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiVBSolution.Name" xml:space="preserve">
     <value>bbiVBSolution</value>
-  </data>
-  <data name="&gt;&gt;bbiVBSolution.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiVBSolution.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXML.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXML.Name" xml:space="preserve">
     <value>bbiExporttoXML</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoXML.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoXML.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiExporttoRTF.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiExporttoRTF.Caption" xml:space="preserve">
     <value>Export to RTF</value>
-  </data>
-  <data name="&gt;&gt;bbiShowInVisualStudio.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiShowInVisualStudio.Name" xml:space="preserve">
     <value>bbiShowInVisualStudio</value>
-  </data>
-  <data name="&gt;&gt;bbiShowInVisualStudio.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiShowInVisualStudio.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bbiGetFreeSupport.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiGetFreeSupport.Caption" xml:space="preserve">
     <value>Get Free Support</value>
-  </data>
-  <data name="&gt;&gt;rpMain.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpMain.Name" xml:space="preserve">
     <value>rpMain</value>
-  </data>
-  <data name="&gt;&gt;rpMain.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpMain.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
     <value>barButtonItem1</value>
-  </data>
-  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;pmAppearance.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmAppearance.Name" xml:space="preserve">
     <value>pmAppearance</value>
-  </data>
-  <data name="&gt;&gt;pmAppearance.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;pmAppearance.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="barButtonItem1.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="barButtonItem1.Caption" xml:space="preserve">
     <value>Color Mixer</value>
-  </data>
-  <data name="bbiDown.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bbiDown.Caption" xml:space="preserve">
     <value>Next</value>
-  </data>
-  <data name="gcDescription.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="gcDescription.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>8, 407</value>
-  </data>
-  <data name="lineLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  </metadata>
+  <metadata name="lineLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>Right</value>
-  </data>
-  <data name="lineLabel.Size" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="lineLabel.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>6, 496</value>
-  </data>
-  <data name="rpgCode.Text" xml:space="preserve">
+  </metadata>
+  <metadata name="rpgCode.Text" xml:space="preserve">
     <value>Code</value>
-  </data>
-  <data name="&gt;&gt;bbiCSSolution.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiCSSolution.Name" xml:space="preserve">
     <value>bbiCSSolution</value>
-  </data>
-  <data name="&gt;&gt;bbiCSSolution.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiCSSolution.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bsiExporttoImageEx.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bsiExporttoImageEx.Caption" xml:space="preserve">
     <value>Export to Image</value>
-  </data>
-  <data name="gcDescription.AppearancePressed.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="gcDescription.AppearancePressed.Image" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAt0RVh0VGl0
         bGUASW5mbzttEi2GAAAKW0lEQVRYR5VWd1DVVxYmbdOTzc5sZst/O7M7s7Ozs9mdzCRZE5WiYCFERSmS
@@ -1073,41 +1069,41 @@
         A3mJnKFyyJmGNmy/hqecqqbHT0D2qhCuYE4nHyWO7o8b4D6P8T7zGl67RbznkIucwEFnQaxy0ElO+YAT
         Tf3vtimEjyo75pQyyYvgMZ7jNQxe/wsmJ/df0Zh/vpjXMzsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+  </metadata>
+  <metadata name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>6, 13</value>
-  </data>
-  <data name="lineLabel.Location" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="lineLabel.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>193, 1</value>
-  </data>
-  <data name="&gt;&gt;bbiExport.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExport.Name" xml:space="preserve">
     <value>bbiExport</value>
-  </data>
-  <data name="&gt;&gt;bbiExport.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;rpgExport.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgExport.Name" xml:space="preserve">
     <value>rpgExport</value>
-  </data>
-  <data name="&gt;&gt;rpgExport.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;rpgExport.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="bciAllowFormSkin.Caption" xml:space="preserve">
+  </metadata>
+  <metadata name="bciAllowFormSkin.Caption" xml:space="preserve">
     <value>Allow Form Skins</value>
-  </data>
-  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoText.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoText.Name" xml:space="preserve">
     <value>bbiExporttoText</value>
-  </data>
-  <data name="&gt;&gt;bbiExporttoText.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;bbiExporttoText.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;demoCategory.Type" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;demoCategory.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageCategory, DevExpress.XtraBars.v16.1, Culture=neutral</value>
-  </data>
-  <data name="&gt;&gt;demoCategory.Name" xml:space="preserve">
+  </metadata>
+  <metadata name="&gt;&gt;demoCategory.Name" xml:space="preserve">
     <value>demoCategory</value>
-  </data>
+  </metadata>
 </root>

@@ -117,14 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SerialNumber" xml:space="preserve">
+  <metadata name="SerialNumber" xml:space="preserve">
     <value>Serial number</value>
-  </data>
-  <data name="Updated" xml:space="preserve">
+  </metadata>
+  <metadata name="Updated" xml:space="preserve">
     <value>updated</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Awards" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="Awards" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAl8AAADZCAYAAAAeyVXxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAP+6SURBVHhe7L0HXFXbnf69M5lk5j89U5Pcfq+906QKgqKCiKBSFOli77333kV6R0SwC9J77733
@@ -1486,38 +1485,38 @@
         aBaJiIiISD80i0RERESkH5pFIiIiItIPzSIRERER6YdmkYiIiIj0Q7NIRERERPqhWSQiIiIifYDy/wF4
         SOBUph2/rwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="DXSite" xml:space="preserve">
+  </metadata>
+  <metadata name="DXSite" xml:space="preserve">
     <value>DevExpress.com</value>
-  </data>
-  <data name="WaitCaption" xml:space="preserve">
+  </metadata>
+  <metadata name="WaitCaption" xml:space="preserve">
     <value>Please Wait</value>
-  </data>
-  <data name="NewUpdateGroup" xml:space="preserve">
+  </metadata>
+  <metadata name="NewUpdateGroup" xml:space="preserve">
     <value>New &amp; Updated Demos</value>
-  </data>
-  <data name="CallUs" xml:space="preserve">
+  </metadata>
+  <metadata name="CallUs" xml:space="preserve">
     <value>or call us</value>
-  </data>
-  <data name="OpenFileQuestion" xml:space="preserve">
+  </metadata>
+  <metadata name="OpenFileQuestion" xml:space="preserve">
     <value>Do you want to open this file?</value>
-  </data>
-  <data name="ApplicationOpenWarning" xml:space="preserve">
+  </metadata>
+  <metadata name="ApplicationOpenWarning" xml:space="preserve">
     <value>Can not find an application on your system suitable for openning the file with exported data.</value>
-  </data>
-  <data name="OverviewCaption" xml:space="preserve">
+  </metadata>
+  <metadata name="OverviewCaption" xml:space="preserve">
     <value>Overview</value>
-  </data>
-  <data name="VCSize" type="System.Drawing.Size, System.Drawing">
+  </metadata>
+  <metadata name="VCSize" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>270, 170</value>
-  </data>
-  <data name="ClearFilter" xml:space="preserve">
+  </metadata>
+  <metadata name="ClearFilter" xml:space="preserve">
     <value>Clear filter</value>
-  </data>
-  <data name="ExportError" xml:space="preserve">
+  </metadata>
+  <metadata name="ExportError" xml:space="preserve">
     <value>An error occurred while exporting</value>
-  </data>
-  <data name="ColorMixer_16x16" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="ColorMixer_16x16" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAMfSURBVDhPdZJ5SBRRHMdHjag1AjvoL8sIikCIsggKyg5RcMtrsTDPyi61cnM1j0StLY/s9Ggl
@@ -1535,8 +1534,8 @@
         sI+ffIJmWEduoQmaoQmoyP789Wb2iCQ/Z/lKp8VcPuqcgi/zAppheQlBIApK2hEeX9ooTq4aiTqrQGRS
         1UhYbEmj5754F/LelsvRjJkSJ1dPC0D9BKhfcLHcOAjcAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="ColorMixer_32x32" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="ColorMixer_32x32" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAslSURBVFhHhZcJUFRHGscnicnmqGSzuU2qNrubVDZWDk2561G6STyjhhjvEM+IB2C45dBFuS+5
@@ -1588,11 +1587,11 @@
         VdsPuIcfso0TmjkkSixPXRm2dc+ibXll+KjDeekhm5i6rftcI7/8x3dr6P73Dc/97j9kG1cyQJ1w2Bmi
         rXvmf+OWRf1wM/I88RrxDsFG9iHxV0Nk7XcJ9ju77xnW+f8nk/cf5iyXI8quEbsAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="AboutCaption" xml:space="preserve">
+  </metadata>
+  <metadata name="AboutCaption" xml:space="preserve">
     <value>About</value>
-  </data>
-  <data name="Awards_main" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="Awards_main" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAbIAAADZCAYAAABFN7UxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAPXgSURBVHhe7L0FXF1Zuu27+x69p4/1ke6uLq9KxQUNGlwCAQJJ8ODE3d3dDQ8QCCEhThIIAYK7
@@ -2646,38 +2645,38 @@
         8PDw8PQWhBby8PDw8PD0FoQW8vDw8PDw9BaEFvLw8PDw8PQWhBby8PDw8PD0FoQW8vDw8PDw9BaEFvLw
         8PDw8PQOIPj/APDnIgphfZN8AAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="ToPurchase" xml:space="preserve">
+  </metadata>
+  <metadata name="ToPurchase" xml:space="preserve">
     <value>To purchase your copy, visit</value>
-  </data>
-  <data name="ExportTo" xml:space="preserve">
+  </metadata>
+  <metadata name="ExportTo" xml:space="preserve">
     <value>Export To {0}</value>
-  </data>
-  <data name="ExportCaption" xml:space="preserve">
+  </metadata>
+  <metadata name="ExportCaption" xml:space="preserve">
     <value>Export</value>
-  </data>
-  <data name="New" xml:space="preserve">
+  </metadata>
+  <metadata name="New" xml:space="preserve">
     <value>new</value>
-  </data>
-  <data name="OutdatedStylesGroup" xml:space="preserve">
+  </metadata>
+  <metadata name="OutdatedStylesGroup" xml:space="preserve">
     <value>Outdated Styles</value>
-  </data>
-  <data name="Version" xml:space="preserve">
+  </metadata>
+  <metadata name="Version" xml:space="preserve">
     <value>Version</value>
-  </data>
-  <data name="LookAndFeelChanging" xml:space="preserve">
+  </metadata>
+  <metadata name="LookAndFeelChanging" xml:space="preserve">
     <value>Changing &lt;b&gt;Look and Feel&lt;/b&gt;:</value>
-  </data>
-  <data name="TechQuestions" xml:space="preserve">
+  </metadata>
+  <metadata name="TechQuestions" xml:space="preserve">
     <value>If you have technical support questions, visit the DevExpress Support Center at</value>
-  </data>
-  <data name="WaitDescription" xml:space="preserve">
+  </metadata>
+  <metadata name="WaitDescription" xml:space="preserve">
     <value>Loading...</value>
-  </data>
-  <data name="HighlightedFeaturesGroup" xml:space="preserve">
+  </metadata>
+  <metadata name="HighlightedFeaturesGroup" xml:space="preserve">
     <value>Highlighted Features</value>
-  </data>
-  <data name="Awards_universal" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  </metadata>
+  <metadata name="Awards_universal" type="System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAMgAAACsCAYAAAA+PePSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAF7FSURBVHhe7Z0FVFVp2/6ZTp15p+xuQBrplm5JQSnB7u527EKxAwO7aCkRJKS7uw/dJnj9770P
@@ -3086,8 +3085,8 @@
         BwcfgYUcHBx8BBZycHDwEVjIwcHBR2AhBwcHH4GFHBwcfAQWcnBw8BFYyMHBwUdgIQcHBx+BhRwcHHwE
         FnJwcPARWMjBwcFHYCEHBwcfgYUcHBwMEPp/edwd0UMRkfwAAAAASUVORK5CYII=
 </value>
-  </data>
-  <data name="ForPrePurchase" xml:space="preserve">
+  </metadata>
+  <metadata name="ForPrePurchase" xml:space="preserve">
     <value>For pre-purchase assistance, feel free to contact us at</value>
-  </data>
+  </metadata>
 </root>
